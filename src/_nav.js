@@ -125,27 +125,27 @@ export default {
     },
     {
       name: 'Product',
-      url: '/buttons',
+      url: '/product',
       icon: 'icon-cursor',
       children: [
         {
           name: 'Products',
-          url: '/buttons/buttons',
+          url: '/product/products',
           icon: 'icon-cursor',
         },
         {
           name: 'Add Product',
-          url: '/buttons/button-dropdowns',
+          url: '/product/addproduct',
           icon: 'icon-cursor',
         },
         {
           name: 'Button groups',
-          url: '/buttons/button-groups',
+          url: '/product/button-groups',
           icon: 'icon-cursor',
         },
         {
           name: 'Brand Buttons',
-          url: '/buttons/brand-buttons',
+          url: '/product/brand-buttons',
           icon: 'icon-cursor',
         },
       ],
@@ -191,23 +191,28 @@ export default {
       ],
     },
     {
-      name: 'Notifications',
-      url: '/notifications',
+      name: 'Lead',
+      url: '/Lead',
       icon: 'icon-bell',
       children: [
         {
           name: 'Lead',
-          url: '/notifications/lead',
+          url: '/lead/lead',
+          icon: 'icon-bell',
+        },
+        {
+          name: 'AddLead',
+          url: '/lead/addlead',
           icon: 'icon-bell',
         },
         {
           name: 'Badges',
-          url: '/notifications/badges',
+          url: '/lead/badges',
           icon: 'icon-bell',
         },
         {
           name: 'Modals',
-          url: '/notifications/modals',
+          url: '/lead/modals',
           icon: 'icon-bell',
         },
       ],

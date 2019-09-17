@@ -64,7 +64,8 @@ class Alerts extends Component {
                     <th>Lead</th>
                     <th className="text-center">Country</th>
                     <th>Country</th>
-                    <th className="text-center">Payment Method</th>
+                    <th className="text-center">cost</th>
+                    <th className="text-center">source</th>
                     <th>Activity</th>
                   </tr>
                   </thead>

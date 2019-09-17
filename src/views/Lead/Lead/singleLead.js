@@ -1,12 +1,14 @@
 
 import React, { Component } from 'react';
 import { Progress } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 class SingleLead extends Component { 
 
     render(){
         const { lead } = this.props
+        let leadLink = `/lead/${lead._id}`
         return(
             <tr>
               <td className="text-center">
@@ -16,13 +18,13 @@ class SingleLead extends Component {
                 </div>
               </td>
               <td>
-                <div> {lead.fullName} </div>
+                <div> <Link to={leadLink}> {lead.fullName} </Link> </div>
                 <div className="small text-muted">
-                  <span>New</span> | Registered: Jan 1, 2015
+                  <span>{lead.status}</span> | Registered:{lead.registerDate}
                 </div>
               </td>
               <td className="text-center">
-                <i className="flag-icon flag-icon-fr h4 mb-0" title="fr" id="fr"></i>
+                <span className="avatar-status badge-secondary"> {lead.country} </span>
               </td>
               <td>
                 <div className="clearfix">
@@ -36,7 +38,10 @@ class SingleLead extends Component {
                 <Progress className="progress-xs" color="danger" value="98" />
               </td>
               <td className="text-center">
-                <i className="fa fa-paypal" style={{ fontSize: 24 + 'px' }}></i>
+                {lead.cost}
+              </td>
+              <td className="text-center">
+                {lead.tr}
               </td>
               <td>
                 <div className="small text-muted">Last login</div>

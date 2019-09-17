@@ -1,0 +1,5266 @@
+{
+  "cities": [
+    {
+      "id": "1",
+      "state_id": "1"
+    },
+    {
+      "id": "2",
+      "state_id": "1"
+    },
+    {
+      "id": "3",
+      "state_id": "1"
+    },
+    {
+      "id": "4",
+      "state_id": "1"
+    },
+    {
+      "id": "5",
+      "state_id": "1"
+    },
+    {
+      "id": "6",
+      "state_id": "1"
+    },
+    {
+      "id": "7",
+      "state_id": "1"
+    },
+    {
+      "id": "8",
+      "state_id": "1"
+    },
+    {
+      "id": "9",
+      "state_id": "1"
+    },
+    {
+      "id": "10",
+      "state_id": "1"
+    },
+    {
+      "id": "11",
+      "state_id": "1"
+    },
+    {
+      "id": "12",
+      "state_id": "1"
+    },
+    {
+      "id": "13",
+      "state_id": "1"
+    },
+    {
+      "id": "14",
+      "state_id": "1"
+    },
+    {
+      "id": "15",
+      "state_id": "1"
+    },
+    {
+      "id": "16",
+      "state_id": "1"
+    },
+    {
+      "id": "17",
+      "state_id": "1"
+    },
+    {
+      "id": "18",
+      "state_id": "1"
+    },
+    {
+      "id": "19",
+      "state_id": "1"
+    },
+    {
+      "id": "20",
+      "state_id": "1"
+    },
+    {
+      "id": "21",
+      "state_id": "1"
+    },
+    {
+      "id": "22",
+      "state_id": "1"
+    },
+    {
+      "id": "23",
+      "state_id": "1"
+    },
+    {
+      "id": "24",
+      "state_id": "1"
+    },
+    {
+      "id": "25",
+      "state_id": "1"
+    },
+    {
+      "id": "26",
+      "state_id": "1"
+    },
+    {
+      "id": "27",
+      "state_id": "1"
+    },
+    {
+      "id": "28",
+      "state_id": "1"
+    },
+    {
+      "id": "29",
+      "state_id": "1"
+    },
+    {
+      "id": "30",
+      "state_id": "1"
+    },
+    {
+      "id": "31",
+      "state_id": "1"
+    },
+    {
+      "id": "32",
+      "state_id": "1"
+    },
+    {
+      "id": "33",
+      "state_id": "2"
+    },
+    {
+      "id": "34",
+      "state_id": "2"
+    },
+    {
+      "id": "35",
+      "state_id": "2"
+    },
+    {
+      "id": "36",
+      "state_id": "2"
+    },
+    {
+      "id": "37",
+      "state_id": "2"
+    },
+    {
+      "id": "38",
+      "state_id": "2"
+    },
+    {
+      "id": "39",
+      "state_id": "2"
+    },
+    {
+      "id": "40",
+      "state_id": "2"
+    },
+    {
+      "id": "41",
+      "state_id": "2"
+    },
+    {
+      "id": "42",
+      "state_id": "2"
+    },
+    {
+      "id": "43",
+      "state_id": "2"
+    },
+    {
+      "id": "44",
+      "state_id": "2"
+    },
+    {
+      "id": "45",
+      "state_id": "2"
+    },
+    {
+      "id": "46",
+      "state_id": "2"
+    },
+    {
+      "id": "47",
+      "state_id": "2"
+    },
+    {
+      "id": "48",
+      "state_id": "2"
+    },
+    {
+      "id": "49",
+      "state_id": "2"
+    },
+    {
+      "id": "50",
+      "state_id": "2"
+    },
+    {
+      "id": "51",
+      "state_id": "2"
+    },
+    {
+      "id": "52",
+      "state_id": "2"
+    },
+    {
+      "id": "53",
+      "state_id": "2"
+    },
+    {
+      "id": "54",
+      "state_id": "2"
+    },
+    {
+      "id": "55",
+      "state_id": "2"
+    },
+    {
+      "id": "56",
+      "state_id": "2"
+    },
+    {
+      "id": "57",
+      "state_id": "2"
+    },
+    {
+      "id": "58",
+      "state_id": "2"
+    },
+    {
+      "id": "59",
+      "state_id": "2"
+    },
+    {
+      "id": "60",
+      "state_id": "2"
+    },
+    {
+      "id": "61",
+      "state_id": "2"
+    },
+    {
+      "id": "62",
+      "state_id": "2"
+    },
+    {
+      "id": "63",
+      "state_id": "2"
+    },
+    {
+      "id": "64",
+      "state_id": "2"
+    },
+    {
+      "id": "65",
+      "state_id": "2"
+    },
+    {
+      "id": "66",
+      "state_id": "2"
+    },
+    {
+      "id": "67",
+      "state_id": "2"
+    },
+    {
+      "id": "68",
+      "state_id": "2"
+    },
+    {
+      "id": "69",
+      "state_id": "2"
+    },
+    {
+      "id": "70",
+      "state_id": "2"
+    },
+    {
+      "id": "71",
+      "state_id": "2"
+    },
+    {
+      "id": "72",
+      "state_id": "2"
+    },
+    {
+      "id": "73",
+      "state_id": "2"
+    },
+    {
+      "id": "74",
+      "state_id": "2"
+    },
+    {
+      "id": "75",
+      "state_id": "2"
+    },
+    {
+      "id": "76",
+      "state_id": "2"
+    },
+    {
+      "id": "77",
+      "state_id": "2"
+    },
+    {
+      "id": "78",
+      "state_id": "2"
+    },
+    {
+      "id": "79",
+      "state_id": "2"
+    },
+    {
+      "id": "80",
+      "state_id": "2"
+    },
+    {
+      "id": "81",
+      "state_id": "2"
+    },
+    {
+      "id": "82",
+      "state_id": "2"
+    },
+    {
+      "id": "83",
+      "state_id": "2"
+    },
+    {
+      "id": "84",
+      "state_id": "3"
+    },
+    {
+      "id": "85",
+      "state_id": "3"
+    },
+    {
+      "id": "86",
+      "state_id": "3"
+    },
+    {
+      "id": "87",
+      "state_id": "3"
+    },
+    {
+      "id": "88",
+      "state_id": "3"
+    },
+    {
+      "id": "89",
+      "state_id": "3"
+    },
+    {
+      "id": "90",
+      "state_id": "3"
+    },
+    {
+      "id": "91",
+      "state_id": "4"
+    },
+    {
+      "id": "92",
+      "state_id": "4"
+    },
+    {
+      "id": "93",
+      "state_id": "4"
+    },
+    {
+      "id": "94",
+      "state_id": "4"
+    },
+    {
+      "id": "95",
+      "state_id": "4"
+    },
+    {
+      "id": "96",
+      "state_id": "5"
+    },
+    {
+      "id": "97",
+      "state_id": "5"
+    },
+    {
+      "id": "98",
+      "state_id": "5"
+    },
+    {
+      "id": "99",
+      "state_id": "5"
+    },
+    {
+      "id": "100",
+      "state_id": "5"
+    },
+    {
+      "id": "101",
+      "state_id": "5"
+    },
+    {
+      "id": "102",
+      "state_id": "5"
+    },
+    {
+      "id": "103",
+      "state_id": "5"
+    },
+    {
+      "id": "104",
+      "state_id": "5"
+    },
+    {
+      "id": "105",
+      "state_id": "5"
+    },
+    {
+      "id": "106",
+      "state_id": "5"
+    },
+    {
+      "id": "107",
+      "state_id": "6"
+    },
+    {
+      "id": "108",
+      "state_id": "6"
+    },
+    {
+      "id": "109",
+      "state_id": "6"
+    },
+    {
+      "id": "110",
+      "state_id": "6"
+    },
+    {
+      "id": "111",
+      "state_id": "6"
+    },
+    {
+      "id": "112",
+      "state_id": "6"
+    },
+    {
+      "id": "113",
+      "state_id": "6"
+    },
+    {
+      "id": "114",
+      "state_id": "7"
+    },
+    {
+      "id": "115",
+      "state_id": "7"
+    },
+    {
+      "id": "116",
+      "state_id": "7"
+    },
+    {
+      "id": "117",
+      "state_id": "7"
+    },
+    {
+      "id": "118",
+      "state_id": "7"
+    },
+    {
+      "id": "119",
+      "state_id": "7"
+    },
+    {
+      "id": "120",
+      "state_id": "8"
+    },
+    {
+      "id": "121",
+      "state_id": "8"
+    },
+    {
+      "id": "122",
+      "state_id": "8"
+    },
+    {
+      "id": "123",
+      "state_id": "8"
+    },
+    {
+      "id": "124",
+      "state_id": "8"
+    },
+    {
+      "id": "125",
+      "state_id": "8"
+    },
+    {
+      "id": "126",
+      "state_id": "8"
+    },
+    {
+      "id": "127",
+      "state_id": "8"
+    },
+    {
+      "id": "128",
+      "state_id": "8"
+    },
+    {
+      "id": "129",
+      "state_id": "8"
+    },
+    {
+      "id": "130",
+      "state_id": "8"
+    },
+    {
+      "id": "131",
+      "state_id": "8"
+    },
+    {
+      "id": "132",
+      "state_id": "8"
+    },
+    {
+      "id": "133",
+      "state_id": "8"
+    },
+    {
+      "id": "134",
+      "state_id": "8"
+    },
+    {
+      "id": "135",
+      "state_id": "9"
+    },
+    {
+      "id": "136",
+      "state_id": "9"
+    },
+    {
+      "id": "137",
+      "state_id": "9"
+    },
+    {
+      "id": "138",
+      "state_id": "9"
+    },
+    {
+      "id": "139",
+      "state_id": "9"
+    },
+    {
+      "id": "140",
+      "state_id": "9"
+    },
+    {
+      "id": "141",
+      "state_id": "9"
+    },
+    {
+      "id": "142",
+      "state_id": "10"
+    },
+    {
+      "id": "143",
+      "state_id": "10"
+    },
+    {
+      "id": "144",
+      "state_id": "10"
+    },
+    {
+      "id": "145",
+      "state_id": "10"
+    },
+    {
+      "id": "146",
+      "state_id": "10"
+    },
+    {
+      "id": "147",
+      "state_id": "10"
+    },
+    {
+      "id": "148",
+      "state_id": "10"
+    },
+    {
+      "id": "149",
+      "state_id": "11"
+    },
+    {
+      "id": "150",
+      "state_id": "11"
+    },
+    {
+      "id": "151",
+      "state_id": "11"
+    },
+    {
+      "id": "152",
+      "state_id": "11"
+    },
+    {
+      "id": "153",
+      "state_id": "11"
+    },
+    {
+      "id": "154",
+      "state_id": "11"
+    },
+    {
+      "id": "155",
+      "state_id": "12"
+    },
+    {
+      "id": "156",
+      "state_id": "12"
+    },
+    {
+      "id": "157",
+      "state_id": "12"
+    },
+    {
+      "id": "158",
+      "state_id": "12"
+    },
+    {
+      "id": "159",
+      "state_id": "12"
+    },
+    {
+      "id": "160",
+      "state_id": "12"
+    },
+    {
+      "id": "161",
+      "state_id": "12"
+    },
+    {
+      "id": "162",
+      "state_id": "12"
+    },
+    {
+      "id": "163",
+      "state_id": "12"
+    },
+    {
+      "id": "164",
+      "state_id": "12"
+    },
+    {
+      "id": "165",
+      "state_id": "12"
+    },
+    {
+      "id": "166",
+      "state_id": "12"
+    },
+    {
+      "id": "167",
+      "state_id": "13"
+    },
+    {
+      "id": "168",
+      "state_id": "13"
+    },
+    {
+      "id": "169",
+      "state_id": "13"
+    },
+    {
+      "id": "170",
+      "state_id": "13"
+    },
+    {
+      "id": "171",
+      "state_id": "13"
+    },
+    {
+      "id": "172",
+      "state_id": "13"
+    },
+    {
+      "id": "173",
+      "state_id": "13"
+    },
+    {
+      "id": "174",
+      "state_id": "13"
+    },
+    {
+      "id": "175",
+      "state_id": "13"
+    },
+    {
+      "id": "176",
+      "state_id": "13"
+    },
+    {
+      "id": "177",
+      "state_id": "13"
+    },
+    {
+      "id": "178",
+      "state_id": "13"
+    },
+    {
+      "id": "179",
+      "state_id": "13"
+    },
+    {
+      "id": "180",
+      "state_id": "13"
+    },
+    {
+      "id": "181",
+      "state_id": "13"
+    },
+    {
+      "id": "182",
+      "state_id": "13"
+    },
+    {
+      "id": "183",
+      "state_id": "13"
+    },
+    {
+      "id": "184",
+      "state_id": "13"
+    },
+    {
+      "id": "185",
+      "state_id": "14"
+    },
+    {
+      "id": "186",
+      "state_id": "14"
+    },
+    {
+      "id": "187",
+      "state_id": "14"
+    },
+    {
+      "id": "188",
+      "state_id": "14"
+    },
+    {
+      "id": "189",
+      "state_id": "15"
+    },
+    {
+      "id": "190",
+      "state_id": "15"
+    },
+    {
+      "id": "191",
+      "state_id": "15"
+    },
+    {
+      "id": "192",
+      "state_id": "15"
+    },
+    {
+      "id": "193",
+      "state_id": "15"
+    },
+    {
+      "id": "194",
+      "state_id": "15"
+    },
+    {
+      "id": "195",
+      "state_id": "15"
+    },
+    {
+      "id": "196",
+      "state_id": "15"
+    },
+    {
+      "id": "197",
+      "state_id": "15"
+    },
+    {
+      "id": "198",
+      "state_id": "15"
+    },
+    {
+      "id": "199",
+      "state_id": "15"
+    },
+    {
+      "id": "200",
+      "state_id": "16"
+    },
+    {
+      "id": "201",
+      "state_id": "16"
+    },
+    {
+      "id": "202",
+      "state_id": "16"
+    },
+    {
+      "id": "203",
+      "state_id": "16"
+    },
+    {
+      "id": "204",
+      "state_id": "17"
+    },
+    {
+      "id": "205",
+      "state_id": "17"
+    },
+    {
+      "id": "206",
+      "state_id": "17"
+    },
+    {
+      "id": "207",
+      "state_id": "17"
+    },
+    {
+      "id": "208",
+      "state_id": "17"
+    },
+    {
+      "id": "209",
+      "state_id": "17"
+    },
+    {
+      "id": "210",
+      "state_id": "17"
+    },
+    {
+      "id": "211",
+      "state_id": "17"
+    },
+    {
+      "id": "212",
+      "state_id": "17"
+    },
+    {
+      "id": "213",
+      "state_id": "17"
+    },
+    {
+      "id": "214",
+      "state_id": "17"
+    },
+    {
+      "id": "215",
+      "state_id": "17"
+    },
+    {
+      "id": "216",
+      "state_id": "17"
+    },
+    {
+      "id": "217",
+      "state_id": "17"
+    },
+    {
+      "id": "218",
+      "state_id": "17"
+    },
+    {
+      "id": "219",
+      "state_id": "17"
+    },
+    {
+      "id": "220",
+      "state_id": "17"
+    },
+    {
+      "id": "221",
+      "state_id": "18"
+    },
+    {
+      "id": "222",
+      "state_id": "18"
+    },
+    {
+      "id": "223",
+      "state_id": "18"
+    },
+    {
+      "id": "224",
+      "state_id": "18"
+    },
+    {
+      "id": "225",
+      "state_id": "18"
+    },
+    {
+      "id": "226",
+      "state_id": "18"
+    },
+    {
+      "id": "227",
+      "state_id": "19"
+    },
+    {
+      "id": "228",
+      "state_id": "19"
+    },
+    {
+      "id": "229",
+      "state_id": "19"
+    },
+    {
+      "id": "230",
+      "state_id": "19"
+    },
+    {
+      "id": "231",
+      "state_id": "19"
+    },
+    {
+      "id": "232",
+      "state_id": "19"
+    },
+    {
+      "id": "233",
+      "state_id": "19"
+    },
+    {
+      "id": "234",
+      "state_id": "19"
+    },
+    {
+      "id": "235",
+      "state_id": "20"
+    },
+    {
+      "id": "236",
+      "state_id": "20"
+    },
+    {
+      "id": "237",
+      "state_id": "20"
+    },
+    {
+      "id": "238",
+      "state_id": "20"
+    },
+    {
+      "id": "239",
+      "state_id": "20"
+    },
+    {
+      "id": "240",
+      "state_id": "21"
+    },
+    {
+      "id": "241",
+      "state_id": "21"
+    },
+    {
+      "id": "242",
+      "state_id": "21"
+    },
+    {
+      "id": "243",
+      "state_id": "21"
+    },
+    {
+      "id": "244",
+      "state_id": "21"
+    },
+    {
+      "id": "245",
+      "state_id": "21"
+    },
+    {
+      "id": "246",
+      "state_id": "21"
+    },
+    {
+      "id": "247",
+      "state_id": "21"
+    },
+    {
+      "id": "248",
+      "state_id": "22"
+    },
+    {
+      "id": "249",
+      "state_id": "22"
+    },
+    {
+      "id": "250",
+      "state_id": "22"
+    },
+    {
+      "id": "251",
+      "state_id": "22"
+    },
+    {
+      "id": "252",
+      "state_id": "22"
+    },
+    {
+      "id": "253",
+      "state_id": "22"
+    },
+    {
+      "id": "254",
+      "state_id": "22"
+    },
+    {
+      "id": "255",
+      "state_id": "22"
+    },
+    {
+      "id": "256",
+      "state_id": "22"
+    },
+    {
+      "id": "257",
+      "state_id": "22"
+    },
+    {
+      "id": "258",
+      "state_id": "22"
+    },
+    {
+      "id": "259",
+      "state_id": "22"
+    },
+    {
+      "id": "260",
+      "state_id": "23"
+    },
+    {
+      "id": "261",
+      "state_id": "23"
+    },
+    {
+      "id": "262",
+      "state_id": "23"
+    },
+    {
+      "id": "263",
+      "state_id": "23"
+    },
+    {
+      "id": "264",
+      "state_id": "23"
+    },
+    {
+      "id": "265",
+      "state_id": "23"
+    },
+    {
+      "id": "266",
+      "state_id": "23"
+    },
+    {
+      "id": "267",
+      "state_id": "23"
+    },
+    {
+      "id": "268",
+      "state_id": "23"
+    },
+    {
+      "id": "269",
+      "state_id": "23"
+    },
+    {
+      "id": "270",
+      "state_id": "24"
+    },
+    {
+      "id": "271",
+      "state_id": "24"
+    },
+    {
+      "id": "272",
+      "state_id": "24"
+    },
+    {
+      "id": "273",
+      "state_id": "24"
+    },
+    {
+      "id": "274",
+      "state_id": "24"
+    },
+    {
+      "id": "275",
+      "state_id": "24"
+    },
+    {
+      "id": "276",
+      "state_id": "24"
+    },
+    {
+      "id": "277",
+      "state_id": "24"
+    },
+    {
+      "id": "278",
+      "state_id": "25"
+    },
+    {
+      "id": "279",
+      "state_id": "25"
+    },
+    {
+      "id": "280",
+      "state_id": "25"
+    },
+    {
+      "id": "281",
+      "state_id": "25"
+    },
+    {
+      "id": "282",
+      "state_id": "25"
+    },
+    {
+      "id": "283",
+      "state_id": "25"
+    },
+    {
+      "id": "284",
+      "state_id": "25"
+    },
+    {
+      "id": "285",
+      "state_id": "25"
+    },
+    {
+      "id": "286",
+      "state_id": "25"
+    },
+    {
+      "id": "287",
+      "state_id": "25"
+    },
+    {
+      "id": "288",
+      "state_id": "26"
+    },
+    {
+      "id": "289",
+      "state_id": "26"
+    },
+    {
+      "id": "290",
+      "state_id": "26"
+    },
+    {
+      "id": "291",
+      "state_id": "26"
+    },
+    {
+      "id": "292",
+      "state_id": "26"
+    },
+    {
+      "id": "293",
+      "state_id": "26"
+    },
+    {
+      "id": "294",
+      "state_id": "26"
+    },
+    {
+      "id": "295",
+      "state_id": "26"
+    },
+    {
+      "id": "296",
+      "state_id": "26"
+    },
+    {
+      "id": "297",
+      "state_id": "26"
+    },
+    {
+      "id": "298",
+      "state_id": "27"
+    },
+    {
+      "id": "299",
+      "state_id": "27"
+    },
+    {
+      "id": "300",
+      "state_id": "27"
+    },
+    {
+      "id": "301",
+      "state_id": "27"
+    }
+  ],
+  "cities_translation": [
+    {
+      "id": "1",
+      "city_id": "1",
+      "name": "المرج",
+      "lang": "ar"
+    },
+    {
+      "id": "2",
+      "city_id": "1",
+      "name": "El Marg",
+      "lang": "en"
+    },
+    {
+      "id": "3",
+      "city_id": "2",
+      "name": "المطرية",
+      "lang": "ar"
+    },
+    {
+      "id": "4",
+      "city_id": "2",
+      "name": "El Matareya",
+      "lang": "en"
+    },
+    {
+      "id": "5",
+      "city_id": "3",
+      "name": "عين شمس",
+      "lang": "ar"
+    },
+    {
+      "id": "6",
+      "city_id": "3",
+      "name": " Ain Shams",
+      "lang": "en"
+    },
+    {
+      "id": "7",
+      "city_id": "4",
+      "name": "السلام",
+      "lang": "ar"
+    },
+    {
+      "id": "8",
+      "city_id": "4",
+      "name": "El Salam",
+      "lang": "en"
+    },
+    {
+      "id": "9",
+      "city_id": "5",
+      "name": "النزهة",
+      "lang": "ar"
+    },
+    {
+      "id": "10",
+      "city_id": "5",
+      "name": "Al Nozha",
+      "lang": "en"
+    },
+    {
+      "id": "11",
+      "city_id": "6",
+      "name": "مصر الجديدة",
+      "lang": "ar"
+    },
+    {
+      "id": "12",
+      "city_id": "6",
+      "name": " Heliopolis",
+      "lang": "en"
+    },
+    {
+      "id": "13",
+      "city_id": "7",
+      "name": "مدينة نصر",
+      "lang": "ar"
+    },
+    {
+      "id": "14",
+      "city_id": "7",
+      "name": "Nasr City",
+      "lang": "en"
+    },
+    {
+      "id": "15",
+      "city_id": "8",
+      "name": "منشأة ناصر",
+      "lang": "ar"
+    },
+    {
+      "id": "16",
+      "city_id": "8",
+      "name": " Manshaet Nasser",
+      "lang": "en"
+    },
+    {
+      "id": "17",
+      "city_id": "9",
+      "name": "الوايلى",
+      "lang": "ar"
+    },
+    {
+      "id": "18",
+      "city_id": "9",
+      "name": "El Waili",
+      "lang": "en"
+    },
+    {
+      "id": "19",
+      "city_id": "10",
+      "name": "باب الشعرية",
+      "lang": "ar"
+    },
+    {
+      "id": "20",
+      "city_id": "10",
+      "name": "Bab El Shariyah",
+      "lang": "en"
+    },
+    {
+      "id": "21",
+      "city_id": "11",
+      "name": "الموسكى",
+      "lang": "ar"
+    },
+    {
+      "id": "22",
+      "city_id": "11",
+      "name": "Moski",
+      "lang": "en"
+    },
+    {
+      "id": "23",
+      "city_id": "12",
+      "name": "الأزبكية",
+      "lang": "ar"
+    },
+    {
+      "id": "24",
+      "city_id": "12",
+      "name": " Azbekieh",
+      "lang": "en"
+    },
+    {
+      "id": "25",
+      "city_id": "13",
+      "name": "عابدين",
+      "lang": "ar"
+    },
+    {
+      "id": "26",
+      "city_id": "13",
+      "name": " Abdeen",
+      "lang": "en"
+    },
+    {
+      "id": "27",
+      "city_id": "14",
+      "name": "بولاق",
+      "lang": "ar"
+    },
+    {
+      "id": "28",
+      "city_id": "14",
+      "name": " Boulak",
+      "lang": "en"
+    },
+    {
+      "id": "29",
+      "city_id": "15",
+      "name": "الزيتون",
+      "lang": "ar"
+    },
+    {
+      "id": "30",
+      "city_id": "15",
+      "name": "Al Zaytoon",
+      "lang": "en"
+    },
+    {
+      "id": "31",
+      "city_id": "16",
+      "name": "حدائق القبة",
+      "lang": "ar"
+    },
+    {
+      "id": "32",
+      "city_id": "16",
+      "name": "Haddaiq El Qubbah",
+      "lang": "en"
+    },
+    {
+      "id": "33",
+      "city_id": "17",
+      "name": "الزاوية الحمراء",
+      "lang": "ar"
+    },
+    {
+      "id": "34",
+      "city_id": "17",
+      "name": "Elzawyah Elhamara",
+      "lang": "en"
+    },
+    {
+      "id": "35",
+      "city_id": "18",
+      "name": "الشرابية",
+      "lang": "ar"
+    },
+    {
+      "id": "36",
+      "city_id": "18",
+      "name": " Sharabiyah",
+      "lang": "en"
+    },
+    {
+      "id": "37",
+      "city_id": "19",
+      "name": "الساحل",
+      "lang": "ar"
+    },
+    {
+      "id": "38",
+      "city_id": "19",
+      "name": "Elsahel",
+      "lang": "en"
+    },
+    {
+      "id": "39",
+      "city_id": "20",
+      "name": "شبرا",
+      "lang": "ar"
+    },
+    {
+      "id": "40",
+      "city_id": "20",
+      "name": " Shoubra",
+      "lang": "en"
+    },
+    {
+      "id": "41",
+      "city_id": "21",
+      "name": "روض الفرج",
+      "lang": "ar"
+    },
+    {
+      "id": "42",
+      "city_id": "21",
+      "name": "Rod Farag",
+      "lang": "en"
+    },
+    {
+      "id": "43",
+      "city_id": "22",
+      "name": "السيدة زينب",
+      "lang": "ar"
+    },
+    {
+      "id": "44",
+      "city_id": "22",
+      "name": "El Sayidah Zaynab",
+      "lang": "en"
+    },
+    {
+      "id": "45",
+      "city_id": "23",
+      "name": "مصر القديمة",
+      "lang": "ar"
+    },
+    {
+      "id": "46",
+      "city_id": "23",
+      "name": "Masr El Qadimah",
+      "lang": "en"
+    },
+    {
+      "id": "47",
+      "city_id": "24",
+      "name": "الخليفة",
+      "lang": "ar"
+    },
+    {
+      "id": "48",
+      "city_id": "24",
+      "name": "El Khalifa",
+      "lang": "en"
+    },
+    {
+      "id": "49",
+      "city_id": "25",
+      "name": "المقطم",
+      "lang": "ar"
+    },
+    {
+      "id": "50",
+      "city_id": "25",
+      "name": " Mokattam",
+      "lang": "en"
+    },
+    {
+      "id": "51",
+      "city_id": "26",
+      "name": "البساتين",
+      "lang": "ar"
+    },
+    {
+      "id": "52",
+      "city_id": "26",
+      "name": "El Basatin",
+      "lang": "en"
+    },
+    {
+      "id": "53",
+      "city_id": "27",
+      "name": "دار السلام",
+      "lang": "ar"
+    },
+    {
+      "id": "54",
+      "city_id": "27",
+      "name": " Dar AISalaam",
+      "lang": "en"
+    },
+    {
+      "id": "55",
+      "city_id": "28",
+      "name": "المعادي",
+      "lang": "ar"
+    },
+    {
+      "id": "56",
+      "city_id": "28",
+      "name": "Maadi",
+      "lang": "en"
+    },
+    {
+      "id": "57",
+      "city_id": "29",
+      "name": "طرة",
+      "lang": "ar"
+    },
+    {
+      "id": "58",
+      "city_id": "29",
+      "name": "Tora",
+      "lang": "en"
+    },
+    {
+      "id": "59",
+      "city_id": "30",
+      "name": "حلوان",
+      "lang": "ar"
+    },
+    {
+      "id": "60",
+      "city_id": "30",
+      "name": " Helwan",
+      "lang": "en"
+    },
+    {
+      "id": "61",
+      "city_id": "31",
+      "name": "التبين",
+      "lang": "ar"
+    },
+    {
+      "id": "62",
+      "city_id": "31",
+      "name": "El Tabin",
+      "lang": "en"
+    },
+    {
+      "id": "63",
+      "city_id": "32",
+      "name": "15 مايو",
+      "lang": "ar"
+    },
+    {
+      "id": "64",
+      "city_id": "32",
+      "name": " 15 May",
+      "lang": "en"
+    },
+    {
+      "id": "167",
+      "city_id": "33",
+      "name": "السيالة",
+      "lang": "ar"
+    },
+    {
+      "id": "168",
+      "city_id": "33",
+      "name": "Alsiyala",
+      "lang": "en"
+    },
+    {
+      "id": "169",
+      "city_id": "34",
+      "name": "أبيس",
+      "lang": "ar"
+    },
+    {
+      "id": "170",
+      "city_id": "34",
+      "name": "Abis",
+      "lang": "en"
+    },
+    {
+      "id": "171",
+      "city_id": "35",
+      "name": "الأزاريطة",
+      "lang": "ar"
+    },
+    {
+      "id": "172",
+      "city_id": "35",
+      "name": "Alazarita",
+      "lang": "en"
+    },
+    {
+      "id": "173",
+      "city_id": "36",
+      "name": "الإبراهيمية",
+      "lang": "ar"
+    },
+    {
+      "id": "174",
+      "city_id": "36",
+      "name": "Aliibrahimia",
+      "lang": "en"
+    },
+    {
+      "id": "175",
+      "city_id": "37",
+      "name": "الحضرة",
+      "lang": "ar"
+    },
+    {
+      "id": "176",
+      "city_id": "37",
+      "name": "Alhadira",
+      "lang": "en"
+    },
+    {
+      "id": "177",
+      "city_id": "38",
+      "name": "الحضرة الجديدة",
+      "lang": "ar"
+    },
+    {
+      "id": "178",
+      "city_id": "38",
+      "name": "Alhadirat Aljadida",
+      "lang": "en"
+    },
+    {
+      "id": "179",
+      "city_id": "39",
+      "name": "الدخيلة",
+      "lang": "ar"
+    },
+    {
+      "id": "180",
+      "city_id": "39",
+      "name": "Aldakhila",
+      "lang": "en"
+    },
+    {
+      "id": "181",
+      "city_id": "40",
+      "name": "السيوف",
+      "lang": "ar"
+    },
+    {
+      "id": "182",
+      "city_id": "40",
+      "name": "Alsuyuf",
+      "lang": "en"
+    },
+    {
+      "id": "183",
+      "city_id": "41",
+      "name": "الشاطبي",
+      "lang": "ar"
+    },
+    {
+      "id": "184",
+      "city_id": "41",
+      "name": "Alshaatibi",
+      "lang": "en"
+    },
+    {
+      "id": "185",
+      "city_id": "42",
+      "name": "الصالحية",
+      "lang": "ar"
+    },
+    {
+      "id": "186",
+      "city_id": "42",
+      "name": "Alsalhia",
+      "lang": "en"
+    },
+    {
+      "id": "187",
+      "city_id": "43",
+      "name": "الظاهرية",
+      "lang": "ar"
+    },
+    {
+      "id": "188",
+      "city_id": "43",
+      "name": "Alzaahiria",
+      "lang": "en"
+    },
+    {
+      "id": "189",
+      "city_id": "44",
+      "name": "العصافرة",
+      "lang": "ar"
+    },
+    {
+      "id": "190",
+      "city_id": "44",
+      "name": "Aleasafara",
+      "lang": "en"
+    },
+    {
+      "id": "191",
+      "city_id": "45",
+      "name": "العطارين",
+      "lang": "ar"
+    },
+    {
+      "id": "192",
+      "city_id": "45",
+      "name": "Aleatarin",
+      "lang": "en"
+    },
+    {
+      "id": "193",
+      "city_id": "46",
+      "name": "العوايد",
+      "lang": "ar"
+    },
+    {
+      "id": "194",
+      "city_id": "46",
+      "name": "Aleawayid",
+      "lang": "en"
+    },
+    {
+      "id": "195",
+      "city_id": "47",
+      "name": "القباري",
+      "lang": "ar"
+    },
+    {
+      "id": "196",
+      "city_id": "47",
+      "name": "Alqabari",
+      "lang": "en"
+    },
+    {
+      "id": "197",
+      "city_id": "48",
+      "name": "اللبان",
+      "lang": "ar"
+    },
+    {
+      "id": "198",
+      "city_id": "48",
+      "name": "Alliban",
+      "lang": "en"
+    },
+    {
+      "id": "199",
+      "city_id": "49",
+      "name": "المعمورة",
+      "lang": "ar"
+    },
+    {
+      "id": "200",
+      "city_id": "49",
+      "name": "Almaemura",
+      "lang": "en"
+    },
+    {
+      "id": "201",
+      "city_id": "50",
+      "name": "المكس",
+      "lang": "ar"
+    },
+    {
+      "id": "202",
+      "city_id": "50",
+      "name": "Almaks",
+      "lang": "en"
+    },
+    {
+      "id": "203",
+      "city_id": "51",
+      "name": "المندرة",
+      "lang": "ar"
+    },
+    {
+      "id": "204",
+      "city_id": "51",
+      "name": "Almundara",
+      "lang": "en"
+    },
+    {
+      "id": "205",
+      "city_id": "52",
+      "name": "المنشية البحرية",
+      "lang": "ar"
+    },
+    {
+      "id": "206",
+      "city_id": "52",
+      "name": "Almanshia Albahria",
+      "lang": "en"
+    },
+    {
+      "id": "207",
+      "city_id": "53",
+      "name": "الورديان",
+      "lang": "ar"
+    },
+    {
+      "id": "208",
+      "city_id": "53",
+      "name": "Alwardayaan",
+      "lang": "en"
+    },
+    {
+      "id": "209",
+      "city_id": "54",
+      "name": "باكوس",
+      "lang": "ar"
+    },
+    {
+      "id": "210",
+      "city_id": "54",
+      "name": "Bakus",
+      "lang": "en"
+    },
+    {
+      "id": "211",
+      "city_id": "55",
+      "name": "بولكلي",
+      "lang": "ar"
+    },
+    {
+      "id": "212",
+      "city_id": "55",
+      "name": "Bulkuli",
+      "lang": "en"
+    },
+    {
+      "id": "213",
+      "city_id": "56",
+      "name": "جليم",
+      "lang": "ar"
+    },
+    {
+      "id": "214",
+      "city_id": "56",
+      "name": "Jelim",
+      "lang": "en"
+    },
+    {
+      "id": "215",
+      "city_id": "57",
+      "name": "جناكليس",
+      "lang": "ar"
+    },
+    {
+      "id": "216",
+      "city_id": "57",
+      "name": "Janakilis",
+      "lang": "en"
+    },
+    {
+      "id": "217",
+      "city_id": "58",
+      "name": "الجمرك",
+      "lang": "ar"
+    },
+    {
+      "id": "218",
+      "city_id": "58",
+      "name": "Aljamruk",
+      "lang": "en"
+    },
+    {
+      "id": "219",
+      "city_id": "59",
+      "name": "العجمي",
+      "lang": "ar"
+    },
+    {
+      "id": "220",
+      "city_id": "59",
+      "name": "Aleajami",
+      "lang": "en"
+    },
+    {
+      "id": "221",
+      "city_id": "60",
+      "name": "رأس التين",
+      "lang": "ar"
+    },
+    {
+      "id": "222",
+      "city_id": "60",
+      "name": "Ras Altyn",
+      "lang": "en"
+    },
+    {
+      "id": "223",
+      "city_id": "61",
+      "name": "زيزينيا",
+      "lang": "ar"
+    },
+    {
+      "id": "224",
+      "city_id": "61",
+      "name": "Zayzinia",
+      "lang": "en"
+    },
+    {
+      "id": "225",
+      "city_id": "62",
+      "name": "سابا باشا",
+      "lang": "ar"
+    },
+    {
+      "id": "226",
+      "city_id": "62",
+      "name": "Saba Bashaan",
+      "lang": "en"
+    },
+    {
+      "id": "227",
+      "city_id": "63",
+      "name": "سان ستيفانو",
+      "lang": "ar"
+    },
+    {
+      "id": "228",
+      "city_id": "63",
+      "name": "San Stifanu",
+      "lang": "en"
+    },
+    {
+      "id": "229",
+      "city_id": "64",
+      "name": "ستانلي",
+      "lang": "ar"
+    },
+    {
+      "id": "230",
+      "city_id": "64",
+      "name": "Stanly",
+      "lang": "en"
+    },
+    {
+      "id": "231",
+      "city_id": "65",
+      "name": "سموحة",
+      "lang": "ar"
+    },
+    {
+      "id": "232",
+      "city_id": "65",
+      "name": "Samuha",
+      "lang": "en"
+    },
+    {
+      "id": "233",
+      "city_id": "66",
+      "name": "سيدي بشر",
+      "lang": "ar"
+    },
+    {
+      "id": "234",
+      "city_id": "66",
+      "name": "Sayidi Bashar",
+      "lang": "en"
+    },
+    {
+      "id": "235",
+      "city_id": "67",
+      "name": "سيدي جابر",
+      "lang": "ar"
+    },
+    {
+      "id": "236",
+      "city_id": "67",
+      "name": "Sayidi Jabir",
+      "lang": "en"
+    },
+    {
+      "id": "237",
+      "city_id": "68",
+      "name": "شاطئ النخيل",
+      "lang": "ar"
+    },
+    {
+      "id": "238",
+      "city_id": "68",
+      "name": "Shati Alnakhil",
+      "lang": "en"
+    },
+    {
+      "id": "239",
+      "city_id": "69",
+      "name": "شدس",
+      "lang": "ar"
+    },
+    {
+      "id": "240",
+      "city_id": "69",
+      "name": "Shds",
+      "lang": "en"
+    },
+    {
+      "id": "241",
+      "city_id": "70",
+      "name": "العامرية",
+      "lang": "ar"
+    },
+    {
+      "id": "242",
+      "city_id": "70",
+      "name": "Aleamiria",
+      "lang": "en"
+    },
+    {
+      "id": "243",
+      "city_id": "71",
+      "name": "فلمنج",
+      "lang": "ar"
+    },
+    {
+      "id": "244",
+      "city_id": "71",
+      "name": "Falamanaj",
+      "lang": "en"
+    },
+    {
+      "id": "245",
+      "city_id": "72",
+      "name": "كامب شيزار",
+      "lang": "ar"
+    },
+    {
+      "id": "246",
+      "city_id": "72",
+      "name": "Kamb Shayzar",
+      "lang": "en"
+    },
+    {
+      "id": "247",
+      "city_id": "73",
+      "name": "كرموز",
+      "lang": "ar"
+    },
+    {
+      "id": "248",
+      "city_id": "73",
+      "name": "Karmuz",
+      "lang": "en"
+    },
+    {
+      "id": "249",
+      "city_id": "74",
+      "name": "كفر عبده",
+      "lang": "ar"
+    },
+    {
+      "id": "250",
+      "city_id": "74",
+      "name": "Kafar Eabdah",
+      "lang": "en"
+    },
+    {
+      "id": "251",
+      "city_id": "75",
+      "name": "كوم الدكة",
+      "lang": "ar"
+    },
+    {
+      "id": "252",
+      "city_id": "75",
+      "name": "Kwm Aldaka",
+      "lang": "en"
+    },
+    {
+      "id": "253",
+      "city_id": "76",
+      "name": "لوران",
+      "lang": "ar"
+    },
+    {
+      "id": "254",
+      "city_id": "76",
+      "name": "Luran",
+      "lang": "en"
+    },
+    {
+      "id": "255",
+      "city_id": "77",
+      "name": "محرم بك",
+      "lang": "ar"
+    },
+    {
+      "id": "256",
+      "city_id": "77",
+      "name": "Muharam Bik",
+      "lang": "en"
+    },
+    {
+      "id": "257",
+      "city_id": "78",
+      "name": "محطة الإسكندرية",
+      "lang": "ar"
+    },
+    {
+      "id": "258",
+      "city_id": "78",
+      "name": "Mahatat Aliiskandaria",
+      "lang": "en"
+    },
+    {
+      "id": "259",
+      "city_id": "79",
+      "name": "محطة الرمل",
+      "lang": "ar"
+    },
+    {
+      "id": "260",
+      "city_id": "79",
+      "name": "Mahatat Alraml",
+      "lang": "en"
+    },
+    {
+      "id": "261",
+      "city_id": "80",
+      "name": "محطة قطار سيدي جابر",
+      "lang": "ar"
+    },
+    {
+      "id": "262",
+      "city_id": "80",
+      "name": "Mahatat Qitar Sayidi Jabir",
+      "lang": "en"
+    },
+    {
+      "id": "263",
+      "city_id": "81",
+      "name": "مساكن طوسون",
+      "lang": "ar"
+    },
+    {
+      "id": "264",
+      "city_id": "81",
+      "name": "Masakin Tusun",
+      "lang": "en"
+    },
+    {
+      "id": "265",
+      "city_id": "82",
+      "name": "المنتزه",
+      "lang": "ar"
+    },
+    {
+      "id": "266",
+      "city_id": "82",
+      "name": "Almuntazuh",
+      "lang": "en"
+    },
+    {
+      "id": "267",
+      "city_id": "83",
+      "name": "مينا البصل",
+      "lang": "ar"
+    },
+    {
+      "id": "268",
+      "city_id": "83",
+      "name": "Mayna Albasal",
+      "lang": "en"
+    },
+    {
+      "id": "269",
+      "city_id": "84",
+      "name": "التل الكبير",
+      "lang": "ar"
+    },
+    {
+      "id": "270",
+      "city_id": "84",
+      "name": "Altala Alkabir",
+      "lang": "en"
+    },
+    {
+      "id": "271",
+      "city_id": "85",
+      "name": "فايد",
+      "lang": "ar"
+    },
+    {
+      "id": "272",
+      "city_id": "85",
+      "name": "Fayd",
+      "lang": "en"
+    },
+    {
+      "id": "273",
+      "city_id": "86",
+      "name": "القنطرة شرق",
+      "lang": "ar"
+    },
+    {
+      "id": "274",
+      "city_id": "86",
+      "name": "Alqintarat Shrq",
+      "lang": "en"
+    },
+    {
+      "id": "275",
+      "city_id": "87",
+      "name": "القنطرة غرب",
+      "lang": "ar"
+    },
+    {
+      "id": "276",
+      "city_id": "87",
+      "name": "Alqintarat Gharb",
+      "lang": "en"
+    },
+    {
+      "id": "277",
+      "city_id": "88",
+      "name": "أبو صوير",
+      "lang": "ar"
+    },
+    {
+      "id": "278",
+      "city_id": "88",
+      "name": "Abu Sawir",
+      "lang": "en"
+    },
+    {
+      "id": "279",
+      "city_id": "89",
+      "name": "القصاصين",
+      "lang": "ar"
+    },
+    {
+      "id": "280",
+      "city_id": "89",
+      "name": "Alqasasin",
+      "lang": "en"
+    },
+    {
+      "id": "281",
+      "city_id": "90",
+      "name": "الإسماعيلية ",
+      "lang": "ar"
+    },
+    {
+      "id": "282",
+      "city_id": "90",
+      "name": "Ismailia",
+      "lang": "en"
+    },
+    {
+      "id": "285",
+      "city_id": "91",
+      "name": "أسوان",
+      "lang": "ar"
+    },
+    {
+      "id": "286",
+      "city_id": "91",
+      "name": "Aswan",
+      "lang": "en"
+    },
+    {
+      "id": "287",
+      "city_id": "92",
+      "name": "إدفو",
+      "lang": "ar"
+    },
+    {
+      "id": "288",
+      "city_id": "92",
+      "name": "Idfu",
+      "lang": "en"
+    },
+    {
+      "id": "289",
+      "city_id": "93",
+      "name": "كوم امبو",
+      "lang": "ar"
+    },
+    {
+      "id": "290",
+      "city_id": "93",
+      "name": "Kwm Ambu",
+      "lang": "en"
+    },
+    {
+      "id": "291",
+      "city_id": "94",
+      "name": "دراو",
+      "lang": "ar"
+    },
+    {
+      "id": "292",
+      "city_id": "94",
+      "name": "Draw",
+      "lang": "en"
+    },
+    {
+      "id": "293",
+      "city_id": "95",
+      "name": "نصر النوبة",
+      "lang": "ar"
+    },
+    {
+      "id": "294",
+      "city_id": "95",
+      "name": "Nasr Alnuwba",
+      "lang": "en"
+    },
+    {
+      "id": "295",
+      "city_id": "96",
+      "name": "اسيوط",
+      "lang": "ar"
+    },
+    {
+      "id": "296",
+      "city_id": "96",
+      "name": "Asyut",
+      "lang": "en"
+    },
+    {
+      "id": "305",
+      "city_id": "100",
+      "name": "منفلوط",
+      "lang": "ar"
+    },
+    {
+      "id": "306",
+      "city_id": "100",
+      "name": "Munfilut",
+      "lang": "en"
+    },
+    {
+      "id": "307",
+      "city_id": "97",
+      "name": "ديروط",
+      "lang": "ar"
+    },
+    {
+      "id": "308",
+      "city_id": "97",
+      "name": "Dayrut",
+      "lang": "en"
+    },
+    {
+      "id": "309",
+      "city_id": "101",
+      "name": "ابو تيج",
+      "lang": "ar"
+    },
+    {
+      "id": "310",
+      "city_id": "101",
+      "name": "Abu Tyj",
+      "lang": "en"
+    },
+    {
+      "id": "311",
+      "city_id": "98",
+      "name": "قوصية",
+      "lang": "ar"
+    },
+    {
+      "id": "312",
+      "city_id": "98",
+      "name": "Qusia",
+      "lang": "en"
+    },
+    {
+      "id": "313",
+      "city_id": "102",
+      "name": "الغنايم",
+      "lang": "ar"
+    },
+    {
+      "id": "314",
+      "city_id": "102",
+      "name": "Alghanaym",
+      "lang": "en"
+    },
+    {
+      "id": "315",
+      "city_id": "99",
+      "name": "ابنوب",
+      "lang": "ar"
+    },
+    {
+      "id": "316",
+      "city_id": "99",
+      "name": "Abnub",
+      "lang": "en"
+    },
+    {
+      "id": "317",
+      "city_id": "103",
+      "name": "ساحل سليم",
+      "lang": "ar"
+    },
+    {
+      "id": "318",
+      "city_id": "103",
+      "name": "Sahil Salim",
+      "lang": "en"
+    },
+    {
+      "id": "321",
+      "city_id": "104",
+      "name": "البداري",
+      "lang": "ar"
+    },
+    {
+      "id": "322",
+      "city_id": "104",
+      "name": "Albadari",
+      "lang": "en"
+    },
+    {
+      "id": "325",
+      "city_id": "105",
+      "name": "صدفا",
+      "lang": "ar"
+    },
+    {
+      "id": "326",
+      "city_id": "105",
+      "name": "Sodfa",
+      "lang": "en"
+    },
+    {
+      "id": "337",
+      "city_id": "106",
+      "name": "الفتح",
+      "lang": "ar"
+    },
+    {
+      "id": "338",
+      "city_id": "106",
+      "name": "Alfath",
+      "lang": "en"
+    },
+    {
+      "id": "339",
+      "city_id": "107",
+      "name": "الأقصر",
+      "lang": "ar"
+    },
+    {
+      "id": "340",
+      "city_id": "108",
+      "name": "الزينية",
+      "lang": "ar"
+    },
+    {
+      "id": "341",
+      "city_id": "109",
+      "name": "القرنة",
+      "lang": "ar"
+    },
+    {
+      "id": "342",
+      "city_id": "110",
+      "name": "البياضية",
+      "lang": "ar"
+    },
+    {
+      "id": "343",
+      "city_id": "111",
+      "name": "الطود",
+      "lang": "ar"
+    },
+    {
+      "id": "344",
+      "city_id": "112",
+      "name": "أرمنت",
+      "lang": "ar"
+    },
+    {
+      "id": "345",
+      "city_id": "113",
+      "name": "إسنا",
+      "lang": "ar"
+    },
+    {
+      "id": "346",
+      "city_id": "107",
+      "name": "Alaqsar",
+      "lang": "en"
+    },
+    {
+      "id": "347",
+      "city_id": "108",
+      "name": "Alziynia",
+      "lang": "en"
+    },
+    {
+      "id": "348",
+      "city_id": "109",
+      "name": "Alqarna",
+      "lang": "en"
+    },
+    {
+      "id": "349",
+      "city_id": "110",
+      "name": "Albiadia",
+      "lang": "en"
+    },
+    {
+      "id": "350",
+      "city_id": "111",
+      "name": "Altuwd",
+      "lang": "en"
+    },
+    {
+      "id": "351",
+      "city_id": "112",
+      "name": "Urminat",
+      "lang": "en"
+    },
+    {
+      "id": "352",
+      "city_id": "113",
+      "name": "Iisna",
+      "lang": "en"
+    },
+    {
+      "id": "353",
+      "city_id": "114",
+      "name": "الغردقة",
+      "lang": "ar"
+    },
+    {
+      "id": "354",
+      "city_id": "115",
+      "name": "سفاجا",
+      "lang": "ar"
+    },
+    {
+      "id": "355",
+      "city_id": "116",
+      "name": "مرسى علم",
+      "lang": "ar"
+    },
+    {
+      "id": "356",
+      "city_id": "117",
+      "name": "القصير",
+      "lang": "ar"
+    },
+    {
+      "id": "357",
+      "city_id": "118",
+      "name": "رأس غارب",
+      "lang": "ar"
+    },
+    {
+      "id": "358",
+      "city_id": "119",
+      "name": "شلاتين",
+      "lang": "ar"
+    },
+    {
+      "id": "359",
+      "city_id": "114",
+      "name": "Hurghada",
+      "lang": "en"
+    },
+    {
+      "id": "360",
+      "city_id": "115",
+      "name": "Safaga",
+      "lang": "en"
+    },
+    {
+      "id": "361",
+      "city_id": "116",
+      "name": "Marsa Alam",
+      "lang": "en"
+    },
+    {
+      "id": "362",
+      "city_id": "117",
+      "name": "Alqasir",
+      "lang": "en"
+    },
+    {
+      "id": "363",
+      "city_id": "118",
+      "name": "Ras Ghareb",
+      "lang": "en"
+    },
+    {
+      "id": "364",
+      "city_id": "119",
+      "name": "Shalatin",
+      "lang": "en"
+    },
+    {
+      "id": "365",
+      "city_id": "120",
+      "name": "رشيد",
+      "lang": "ar"
+    },
+    {
+      "id": "366",
+      "city_id": "121",
+      "name": "شبراخيت",
+      "lang": "ar"
+    },
+    {
+      "id": "367",
+      "city_id": "122",
+      "name": "ايتاي البارود",
+      "lang": "ar"
+    },
+    {
+      "id": "368",
+      "city_id": "123",
+      "name": "ابو حمص",
+      "lang": "ar"
+    },
+    {
+      "id": "369",
+      "city_id": "124",
+      "name": "كفر الدوار",
+      "lang": "ar"
+    },
+    {
+      "id": "370",
+      "city_id": "125",
+      "name": "الدلنجات",
+      "lang": "ar"
+    },
+    {
+      "id": "371",
+      "city_id": "126",
+      "name": "كوم حمادة",
+      "lang": "ar"
+    },
+    {
+      "id": "372",
+      "city_id": "127",
+      "name": "حوش عيسى",
+      "lang": "ar"
+    },
+    {
+      "id": "373",
+      "city_id": "128",
+      "name": "دمنهور",
+      "lang": "ar"
+    },
+    {
+      "id": "374",
+      "city_id": "129",
+      "name": "المحمودية",
+      "lang": "ar"
+    },
+    {
+      "id": "375",
+      "city_id": "130",
+      "name": "ادكو",
+      "lang": "ar"
+    },
+    {
+      "id": "376",
+      "city_id": "131",
+      "name": "ابو المطامير",
+      "lang": "ar"
+    },
+    {
+      "id": "377",
+      "city_id": "132",
+      "name": "الرحمانية",
+      "lang": "ar"
+    },
+    {
+      "id": "378",
+      "city_id": "133",
+      "name": "النوبارية الجديدة",
+      "lang": "ar"
+    },
+    {
+      "id": "379",
+      "city_id": "134",
+      "name": "وادي النطرون",
+      "lang": "ar"
+    },
+    {
+      "id": "380",
+      "city_id": "120",
+      "name": "Rashid",
+      "lang": "en"
+    },
+    {
+      "id": "381",
+      "city_id": "121",
+      "name": "Shibrakhit",
+      "lang": "en"
+    },
+    {
+      "id": "382",
+      "city_id": "122",
+      "name": "Aytay Albarud",
+      "lang": "en"
+    },
+    {
+      "id": "383",
+      "city_id": "123",
+      "name": "Abu Hms",
+      "lang": "en"
+    },
+    {
+      "id": "384",
+      "city_id": "124",
+      "name": "Kafar Aldawaar",
+      "lang": "en"
+    },
+    {
+      "id": "385",
+      "city_id": "125",
+      "name": "Aldalanajat",
+      "lang": "en"
+    },
+    {
+      "id": "386",
+      "city_id": "126",
+      "name": "Kwm Hamada",
+      "lang": "en"
+    },
+    {
+      "id": "387",
+      "city_id": "127",
+      "name": "Hush Eisaa",
+      "lang": "en"
+    },
+    {
+      "id": "388",
+      "city_id": "128",
+      "name": "Damanhur",
+      "lang": "en"
+    },
+    {
+      "id": "389",
+      "city_id": "129",
+      "name": "Almhmwdya",
+      "lang": "en"
+    },
+    {
+      "id": "390",
+      "city_id": "130",
+      "name": "Adku",
+      "lang": "en"
+    },
+    {
+      "id": "391",
+      "city_id": "131",
+      "name": "Abu Almatamir",
+      "lang": "en"
+    },
+    {
+      "id": "392",
+      "city_id": "132",
+      "name": "Alrahmania",
+      "lang": "en"
+    },
+    {
+      "id": "393",
+      "city_id": "133",
+      "name": "Alnuwbaria Aljadida",
+      "lang": "en"
+    },
+    {
+      "id": "394",
+      "city_id": "134",
+      "name": "Wadi Alnatarun",
+      "lang": "en"
+    },
+    {
+      "id": "395",
+      "city_id": "135",
+      "name": "بني سويف",
+      "lang": "ar"
+    },
+    {
+      "id": "396",
+      "city_id": "136",
+      "name": "مدينة ناصر",
+      "lang": "ar"
+    },
+    {
+      "id": "397",
+      "city_id": "137",
+      "name": "الفشن",
+      "lang": "ar"
+    },
+    {
+      "id": "398",
+      "city_id": "138",
+      "name": "ببا",
+      "lang": "ar"
+    },
+    {
+      "id": "399",
+      "city_id": "139",
+      "name": "اهناسيا",
+      "lang": "ar"
+    },
+    {
+      "id": "400",
+      "city_id": "140",
+      "name": "الواسطى",
+      "lang": "ar"
+    },
+    {
+      "id": "401",
+      "city_id": "141",
+      "name": "سمسطا",
+      "lang": "ar"
+    },
+    {
+      "id": "402",
+      "city_id": "135",
+      "name": "Bani Suif",
+      "lang": "en"
+    },
+    {
+      "id": "403",
+      "city_id": "136",
+      "name": "Madinat Nasir",
+      "lang": "en"
+    },
+    {
+      "id": "404",
+      "city_id": "137",
+      "name": "Alfashan",
+      "lang": "en"
+    },
+    {
+      "id": "405",
+      "city_id": "138",
+      "name": "Beba",
+      "lang": "en"
+    },
+    {
+      "id": "406",
+      "city_id": "139",
+      "name": "Ahnasia",
+      "lang": "en"
+    },
+    {
+      "id": "407",
+      "city_id": "140",
+      "name": "Alwasita",
+      "lang": "en"
+    },
+    {
+      "id": "408",
+      "city_id": "141",
+      "name": "Samastaa",
+      "lang": "en"
+    },
+    {
+      "id": "409",
+      "city_id": "142",
+      "name": "الشرق",
+      "lang": "ar"
+    },
+    {
+      "id": "410",
+      "city_id": "143",
+      "name": "الجنوب",
+      "lang": "ar"
+    },
+    {
+      "id": "411",
+      "city_id": "144",
+      "name": "بورفؤاد",
+      "lang": "ar"
+    },
+    {
+      "id": "412",
+      "city_id": "145",
+      "name": "الضواحي",
+      "lang": "ar"
+    },
+    {
+      "id": "413",
+      "city_id": "146",
+      "name": "المناخ",
+      "lang": "ar"
+    },
+    {
+      "id": "414",
+      "city_id": "147",
+      "name": "الزهور",
+      "lang": "ar"
+    },
+    {
+      "id": "415",
+      "city_id": "148",
+      "name": "العرب",
+      "lang": "ar"
+    },
+    {
+      "id": "416",
+      "city_id": "142",
+      "name": "Alshrq",
+      "lang": "en"
+    },
+    {
+      "id": "417",
+      "city_id": "143",
+      "name": "Aljanub",
+      "lang": "en"
+    },
+    {
+      "id": "418",
+      "city_id": "144",
+      "name": "Burfawad",
+      "lang": "en"
+    },
+    {
+      "id": "419",
+      "city_id": "145",
+      "name": "Aldawahi",
+      "lang": "en"
+    },
+    {
+      "id": "420",
+      "city_id": "146",
+      "name": "Almunakh",
+      "lang": "en"
+    },
+    {
+      "id": "421",
+      "city_id": "147",
+      "name": "Alzuhur",
+      "lang": "en"
+    },
+    {
+      "id": "422",
+      "city_id": "148",
+      "name": "Alearab",
+      "lang": "en"
+    },
+    {
+      "id": "423",
+      "city_id": "149",
+      "name": "طابا",
+      "lang": "ar"
+    },
+    {
+      "id": "424",
+      "city_id": "150",
+      "name": "نويبع",
+      "lang": "ar"
+    },
+    {
+      "id": "425",
+      "city_id": "151",
+      "name": "دهب",
+      "lang": "ar"
+    },
+    {
+      "id": "426",
+      "city_id": "152",
+      "name": "نخل",
+      "lang": "ar"
+    },
+    {
+      "id": "427",
+      "city_id": "153",
+      "name": "رأس سدر",
+      "lang": "ar"
+    },
+    {
+      "id": "428",
+      "city_id": "154",
+      "name": "شرم الشيخ",
+      "lang": "ar"
+    },
+    {
+      "id": "429",
+      "city_id": "149",
+      "name": "Taba",
+      "lang": "en"
+    },
+    {
+      "id": "430",
+      "city_id": "150",
+      "name": "Nuybie",
+      "lang": "en"
+    },
+    {
+      "id": "431",
+      "city_id": "151",
+      "name": "Dahab",
+      "lang": "en"
+    },
+    {
+      "id": "432",
+      "city_id": "152",
+      "name": "Nakhl",
+      "lang": "en"
+    },
+    {
+      "id": "433",
+      "city_id": "153",
+      "name": "Ras Sidr",
+      "lang": "en"
+    },
+    {
+      "id": "434",
+      "city_id": "154",
+      "name": "Sharm Alshaykh",
+      "lang": "en"
+    },
+    {
+      "id": "435",
+      "city_id": "155",
+      "name": "الجيزة",
+      "lang": "ar"
+    },
+    {
+      "id": "436",
+      "city_id": "156",
+      "name": "الدقي",
+      "lang": "ar"
+    },
+    {
+      "id": "437",
+      "city_id": "157",
+      "name": "المهندسين",
+      "lang": "ar"
+    },
+    {
+      "id": "438",
+      "city_id": "158",
+      "name": "امبابة",
+      "lang": "ar"
+    },
+    {
+      "id": "439",
+      "city_id": "159",
+      "name": "فيصل",
+      "lang": "ar"
+    },
+    {
+      "id": "440",
+      "city_id": "160",
+      "name": "6 اكتوبر",
+      "lang": "ar"
+    },
+    {
+      "id": "441",
+      "city_id": "161",
+      "name": "الهرم",
+      "lang": "ar"
+    },
+    {
+      "id": "442",
+      "city_id": "162",
+      "name": "البدرشين",
+      "lang": "ar"
+    },
+    {
+      "id": "443",
+      "city_id": "163",
+      "name": "العياط",
+      "lang": "ar"
+    },
+    {
+      "id": "444",
+      "city_id": "164",
+      "name": "اطفيح",
+      "lang": "ar"
+    },
+    {
+      "id": "445",
+      "city_id": "165",
+      "name": "الواحات البحرية",
+      "lang": "ar"
+    },
+    {
+      "id": "446",
+      "city_id": "166",
+      "name": "الصف",
+      "lang": "ar"
+    },
+    {
+      "id": "447",
+      "city_id": "155",
+      "name": "Aljiza",
+      "lang": "en"
+    },
+    {
+      "id": "448",
+      "city_id": "156",
+      "name": "Alduqiy",
+      "lang": "en"
+    },
+    {
+      "id": "449",
+      "city_id": "157",
+      "name": "Almuhandisin",
+      "lang": "en"
+    },
+    {
+      "id": "450",
+      "city_id": "158",
+      "name": "Ambaba",
+      "lang": "en"
+    },
+    {
+      "id": "451",
+      "city_id": "159",
+      "name": "Faysal",
+      "lang": "en"
+    },
+    {
+      "id": "452",
+      "city_id": "160",
+      "name": "6 Uktubar",
+      "lang": "en"
+    },
+    {
+      "id": "453",
+      "city_id": "161",
+      "name": "Alharam",
+      "lang": "en"
+    },
+    {
+      "id": "454",
+      "city_id": "162",
+      "name": "Albadrshin",
+      "lang": "en"
+    },
+    {
+      "id": "455",
+      "city_id": "163",
+      "name": "Aleiat",
+      "lang": "en"
+    },
+    {
+      "id": "456",
+      "city_id": "164",
+      "name": "Atfih",
+      "lang": "en"
+    },
+    {
+      "id": "457",
+      "city_id": "165",
+      "name": "Alwahat Albahria",
+      "lang": "en"
+    },
+    {
+      "id": "458",
+      "city_id": "166",
+      "name": "Alsaff",
+      "lang": "en"
+    },
+    {
+      "id": "459",
+      "city_id": "167",
+      "name": "المنزلة",
+      "lang": "ar"
+    },
+    {
+      "id": "460",
+      "city_id": "168",
+      "name": "الجمالية",
+      "lang": "ar"
+    },
+    {
+      "id": "461",
+      "city_id": "169",
+      "name": "دكرنس",
+      "lang": "ar"
+    },
+    {
+      "id": "462",
+      "city_id": "170",
+      "name": "ميت غمر",
+      "lang": "ar"
+    },
+    {
+      "id": "463",
+      "city_id": "171",
+      "name": "جمصة",
+      "lang": "ar"
+    },
+    {
+      "id": "464",
+      "city_id": "172",
+      "name": "أجا",
+      "lang": "ar"
+    },
+    {
+      "id": "465",
+      "city_id": "173",
+      "name": "بلقاس",
+      "lang": "ar"
+    },
+    {
+      "id": "466",
+      "city_id": "174",
+      "name": "السنبلاوين",
+      "lang": "ar"
+    },
+    {
+      "id": "467",
+      "city_id": "175",
+      "name": "شربين",
+      "lang": "ar"
+    },
+    {
+      "id": "468",
+      "city_id": "176",
+      "name": "طلخا",
+      "lang": "ar"
+    },
+    {
+      "id": "469",
+      "city_id": "177",
+      "name": "المنصورة",
+      "lang": "ar"
+    },
+    {
+      "id": "470",
+      "city_id": "178",
+      "name": "منية النصر",
+      "lang": "ar"
+    },
+    {
+      "id": "471",
+      "city_id": "179",
+      "name": "بنى عبيد",
+      "lang": "ar"
+    },
+    {
+      "id": "472",
+      "city_id": "180",
+      "name": "ميت سلسيل",
+      "lang": "ar"
+    },
+    {
+      "id": "473",
+      "city_id": "181",
+      "name": "الكردي",
+      "lang": "ar"
+    },
+    {
+      "id": "474",
+      "city_id": "182",
+      "name": "تمى الأمديد",
+      "lang": "ar"
+    },
+    {
+      "id": "475",
+      "city_id": "183",
+      "name": "المطرية",
+      "lang": "ar"
+    },
+    {
+      "id": "476",
+      "city_id": "184",
+      "name": "نبروه",
+      "lang": "ar"
+    },
+    {
+      "id": "477",
+      "city_id": "167",
+      "name": "Almunzila",
+      "lang": "en"
+    },
+    {
+      "id": "478",
+      "city_id": "168",
+      "name": "Aljamalia",
+      "lang": "en"
+    },
+    {
+      "id": "479",
+      "city_id": "169",
+      "name": "Dakurns",
+      "lang": "en"
+    },
+    {
+      "id": "480",
+      "city_id": "170",
+      "name": "Mayit Ghamar",
+      "lang": "en"
+    },
+    {
+      "id": "481",
+      "city_id": "171",
+      "name": "Jumasa",
+      "lang": "en"
+    },
+    {
+      "id": "482",
+      "city_id": "172",
+      "name": "Aja",
+      "lang": "en"
+    },
+    {
+      "id": "483",
+      "city_id": "173",
+      "name": "Bilqas",
+      "lang": "en"
+    },
+    {
+      "id": "484",
+      "city_id": "174",
+      "name": "Alsanblawin",
+      "lang": "en"
+    },
+    {
+      "id": "485",
+      "city_id": "175",
+      "name": "Sharabin",
+      "lang": "en"
+    },
+    {
+      "id": "486",
+      "city_id": "176",
+      "name": "Talakha",
+      "lang": "en"
+    },
+    {
+      "id": "487",
+      "city_id": "177",
+      "name": "Almansura",
+      "lang": "en"
+    },
+    {
+      "id": "488",
+      "city_id": "178",
+      "name": "Maniyat Alnasr",
+      "lang": "en"
+    },
+    {
+      "id": "489",
+      "city_id": "179",
+      "name": "Bunaa Eubayd",
+      "lang": "en"
+    },
+    {
+      "id": "490",
+      "city_id": "180",
+      "name": "Mayit Salasil",
+      "lang": "en"
+    },
+    {
+      "id": "491",
+      "city_id": "181",
+      "name": "Alkurdi",
+      "lang": "en"
+    },
+    {
+      "id": "492",
+      "city_id": "182",
+      "name": "Tamaa Al-Amdid",
+      "lang": "en"
+    },
+    {
+      "id": "493",
+      "city_id": "183",
+      "name": "Almitria",
+      "lang": "en"
+    },
+    {
+      "id": "494",
+      "city_id": "184",
+      "name": "Nabiruh",
+      "lang": "en"
+    },
+    {
+      "id": "495",
+      "city_id": "185",
+      "name": "دمياط",
+      "lang": "ar"
+    },
+    {
+      "id": "496",
+      "city_id": "186",
+      "name": "كفر سعد",
+      "lang": "ar"
+    },
+    {
+      "id": "497",
+      "city_id": "187",
+      "name": "فارسكور",
+      "lang": "ar"
+    },
+    {
+      "id": "498",
+      "city_id": "188",
+      "name": "الزرقا",
+      "lang": "ar"
+    },
+    {
+      "id": "499",
+      "city_id": "185",
+      "name": "Damietta",
+      "lang": "en"
+    },
+    {
+      "id": "500",
+      "city_id": "186",
+      "name": "Kafr Saad",
+      "lang": "en"
+    },
+    {
+      "id": "501",
+      "city_id": "187",
+      "name": "Faraskour",
+      "lang": "en"
+    },
+    {
+      "id": "502",
+      "city_id": "188",
+      "name": "Zarqa",
+      "lang": "en"
+    },
+    {
+      "id": "503",
+      "city_id": "189",
+      "name": "اخميم",
+      "lang": "ar"
+    },
+    {
+      "id": "504",
+      "city_id": "190",
+      "name": "البلينا",
+      "lang": "ar"
+    },
+    {
+      "id": "505",
+      "city_id": "191",
+      "name": "جرجا",
+      "lang": "ar"
+    },
+    {
+      "id": "506",
+      "city_id": "192",
+      "name": "دار السلام",
+      "lang": "ar"
+    },
+    {
+      "id": "507",
+      "city_id": "193",
+      "name": "جهينة",
+      "lang": "ar"
+    },
+    {
+      "id": "508",
+      "city_id": "194",
+      "name": "ساقلتا",
+      "lang": "ar"
+    },
+    {
+      "id": "509",
+      "city_id": "195",
+      "name": "سوهاج",
+      "lang": "ar"
+    },
+    {
+      "id": "510",
+      "city_id": "196",
+      "name": "طما",
+      "lang": "ar"
+    },
+    {
+      "id": "511",
+      "city_id": "197",
+      "name": "طهطا",
+      "lang": "ar"
+    },
+    {
+      "id": "512",
+      "city_id": "198",
+      "name": "المراغة",
+      "lang": "ar"
+    },
+    {
+      "id": "513",
+      "city_id": "199",
+      "name": "المنشاة",
+      "lang": "ar"
+    },
+    {
+      "id": "514",
+      "city_id": "189",
+      "name": "Akhmim",
+      "lang": "en"
+    },
+    {
+      "id": "515",
+      "city_id": "190",
+      "name": "Albalina",
+      "lang": "en"
+    },
+    {
+      "id": "516",
+      "city_id": "191",
+      "name": "Jaraja",
+      "lang": "en"
+    },
+    {
+      "id": "517",
+      "city_id": "192",
+      "name": "Dar Alsalam",
+      "lang": "en"
+    },
+    {
+      "id": "518",
+      "city_id": "193",
+      "name": "Jahina",
+      "lang": "en"
+    },
+    {
+      "id": "519",
+      "city_id": "194",
+      "name": "Saqilata",
+      "lang": "en"
+    },
+    {
+      "id": "520",
+      "city_id": "195",
+      "name": "Sohag",
+      "lang": "en"
+    },
+    {
+      "id": "521",
+      "city_id": "196",
+      "name": "Tamma",
+      "lang": "en"
+    },
+    {
+      "id": "522",
+      "city_id": "197",
+      "name": "Tahta",
+      "lang": "en"
+    },
+    {
+      "id": "523",
+      "city_id": "198",
+      "name": "Almaragha",
+      "lang": "en"
+    },
+    {
+      "id": "524",
+      "city_id": "199",
+      "name": "Almunshaa",
+      "lang": "en"
+    },
+    {
+      "id": "525",
+      "city_id": "200",
+      "name": "السويس",
+      "lang": "ar"
+    },
+    {
+      "id": "526",
+      "city_id": "201",
+      "name": "الاربعين",
+      "lang": "ar"
+    },
+    {
+      "id": "527",
+      "city_id": "202",
+      "name": "عتاقة",
+      "lang": "ar"
+    },
+    {
+      "id": "528",
+      "city_id": "203",
+      "name": "الجناين",
+      "lang": "ar"
+    },
+    {
+      "id": "529",
+      "city_id": "200",
+      "name": "Alsuways",
+      "lang": "en"
+    },
+    {
+      "id": "530",
+      "city_id": "201",
+      "name": "Alarbeyn",
+      "lang": "en"
+    },
+    {
+      "id": "531",
+      "city_id": "202",
+      "name": "Eataqa",
+      "lang": "en"
+    },
+    {
+      "id": "532",
+      "city_id": "203",
+      "name": "Aljanayun",
+      "lang": "en"
+    },
+    {
+      "id": "533",
+      "city_id": "204",
+      "name": "ابو حماد",
+      "lang": "ar"
+    },
+    {
+      "id": "534",
+      "city_id": "205",
+      "name": "ابو كبير",
+      "lang": "ar"
+    },
+    {
+      "id": "535",
+      "city_id": "206",
+      "name": "اولاد صقر",
+      "lang": "ar"
+    },
+    {
+      "id": "536",
+      "city_id": "207",
+      "name": "بلبيس",
+      "lang": "ar"
+    },
+    {
+      "id": "537",
+      "city_id": "208",
+      "name": "الحسينية",
+      "lang": "ar"
+    },
+    {
+      "id": "538",
+      "city_id": "209",
+      "name": "ديرب نجم",
+      "lang": "ar"
+    },
+    {
+      "id": "539",
+      "city_id": "210",
+      "name": "الزقازيق",
+      "lang": "ar"
+    },
+    {
+      "id": "540",
+      "city_id": "211",
+      "name": "الصالحية",
+      "lang": "ar"
+    },
+    {
+      "id": "541",
+      "city_id": "212",
+      "name": "العاشر من رمضان",
+      "lang": "ar"
+    },
+    {
+      "id": "542",
+      "city_id": "213",
+      "name": "فاقوس",
+      "lang": "ar"
+    },
+    {
+      "id": "543",
+      "city_id": "214",
+      "name": "كفر صقر",
+      "lang": "ar"
+    },
+    {
+      "id": "544",
+      "city_id": "215",
+      "name": "منيا القمح",
+      "lang": "ar"
+    },
+    {
+      "id": "545",
+      "city_id": "216",
+      "name": "ههيا",
+      "lang": "ar"
+    },
+    {
+      "id": "546",
+      "city_id": "217",
+      "name": "مشتول السوق",
+      "lang": "ar"
+    },
+    {
+      "id": "547",
+      "city_id": "218",
+      "name": "الإبراهيمية",
+      "lang": "ar"
+    },
+    {
+      "id": "548",
+      "city_id": "219",
+      "name": "القرين",
+      "lang": "ar"
+    },
+    {
+      "id": "549",
+      "city_id": "220",
+      "name": "القنايات",
+      "lang": "ar"
+    },
+    {
+      "id": "550",
+      "city_id": "204",
+      "name": "Abu Hammad",
+      "lang": "en"
+    },
+    {
+      "id": "551",
+      "city_id": "205",
+      "name": "Abu Kabir",
+      "lang": "en"
+    },
+    {
+      "id": "552",
+      "city_id": "206",
+      "name": "Awlad Saqr",
+      "lang": "en"
+    },
+    {
+      "id": "553",
+      "city_id": "207",
+      "name": "Balbays",
+      "lang": "en"
+    },
+    {
+      "id": "554",
+      "city_id": "208",
+      "name": "Alhusaynia",
+      "lang": "en"
+    },
+    {
+      "id": "555",
+      "city_id": "209",
+      "name": "Dirib Najam",
+      "lang": "en"
+    },
+    {
+      "id": "556",
+      "city_id": "210",
+      "name": "Alzaqaziq",
+      "lang": "en"
+    },
+    {
+      "id": "557",
+      "city_id": "211",
+      "name": "Alsalihia",
+      "lang": "en"
+    },
+    {
+      "id": "558",
+      "city_id": "212",
+      "name": "Aleashir Min Ramadan",
+      "lang": "en"
+    },
+    {
+      "id": "559",
+      "city_id": "213",
+      "name": "Faqus",
+      "lang": "en"
+    },
+    {
+      "id": "560",
+      "city_id": "214",
+      "name": "Kafar Saqr",
+      "lang": "en"
+    },
+    {
+      "id": "561",
+      "city_id": "215",
+      "name": "Munya Alqamh",
+      "lang": "en"
+    },
+    {
+      "id": "562",
+      "city_id": "216",
+      "name": "Hahia",
+      "lang": "en"
+    },
+    {
+      "id": "563",
+      "city_id": "217",
+      "name": "Mshtwl Alsuwq",
+      "lang": "en"
+    },
+    {
+      "id": "564",
+      "city_id": "218",
+      "name": "Aliibrahimia",
+      "lang": "en"
+    },
+    {
+      "id": "565",
+      "city_id": "219",
+      "name": "Alqarin",
+      "lang": "en"
+    },
+    {
+      "id": "566",
+      "city_id": "220",
+      "name": "Alqinayat",
+      "lang": "en"
+    },
+    {
+      "id": "567",
+      "city_id": "221",
+      "name": "بئر العبد",
+      "lang": "ar"
+    },
+    {
+      "id": "568",
+      "city_id": "222",
+      "name": "نخل",
+      "lang": "ar"
+    },
+    {
+      "id": "569",
+      "city_id": "223",
+      "name": "الحسنة",
+      "lang": "ar"
+    },
+    {
+      "id": "570",
+      "city_id": "224",
+      "name": "العريش",
+      "lang": "ar"
+    },
+    {
+      "id": "571",
+      "city_id": "225",
+      "name": "الشيخ زويد",
+      "lang": "ar"
+    },
+    {
+      "id": "572",
+      "city_id": "226",
+      "name": "رفح",
+      "lang": "ar"
+    },
+    {
+      "id": "573",
+      "city_id": "221",
+      "name": "Biir Aleabd",
+      "lang": "en"
+    },
+    {
+      "id": "574",
+      "city_id": "222",
+      "name": "Nakhl",
+      "lang": "en"
+    },
+    {
+      "id": "575",
+      "city_id": "223",
+      "name": "Alhasana",
+      "lang": "en"
+    },
+    {
+      "id": "576",
+      "city_id": "224",
+      "name": "Alearish",
+      "lang": "en"
+    },
+    {
+      "id": "577",
+      "city_id": "225",
+      "name": "Alshaykh Zawid",
+      "lang": "en"
+    },
+    {
+      "id": "578",
+      "city_id": "226",
+      "name": "Rafah",
+      "lang": "en"
+    },
+    {
+      "id": "579",
+      "city_id": "227",
+      "name": "المحلة الكبرى ",
+      "lang": "ar"
+    },
+    {
+      "id": "580",
+      "city_id": "228",
+      "name": "طنطا",
+      "lang": "ar"
+    },
+    {
+      "id": "581",
+      "city_id": "229",
+      "name": "سمنود",
+      "lang": "ar"
+    },
+    {
+      "id": "582",
+      "city_id": "230",
+      "name": "قطور",
+      "lang": "ar"
+    },
+    {
+      "id": "583",
+      "city_id": "231",
+      "name": "السنطة",
+      "lang": "ar"
+    },
+    {
+      "id": "584",
+      "city_id": "232",
+      "name": "زفتى",
+      "lang": "ar"
+    },
+    {
+      "id": "585",
+      "city_id": "233",
+      "name": "بسيون",
+      "lang": "ar"
+    },
+    {
+      "id": "586",
+      "city_id": "234",
+      "name": "كفر الزيات",
+      "lang": "ar"
+    },
+    {
+      "id": "587",
+      "city_id": "227",
+      "name": "Almahala Alkubraa",
+      "lang": "en"
+    },
+    {
+      "id": "588",
+      "city_id": "228",
+      "name": "Tanta",
+      "lang": "en"
+    },
+    {
+      "id": "589",
+      "city_id": "229",
+      "name": "Samanud",
+      "lang": "en"
+    },
+    {
+      "id": "590",
+      "city_id": "230",
+      "name": "Qutur",
+      "lang": "en"
+    },
+    {
+      "id": "591",
+      "city_id": "231",
+      "name": "Alsunta",
+      "lang": "en"
+    },
+    {
+      "id": "592",
+      "city_id": "232",
+      "name": "Zeffta",
+      "lang": "en"
+    },
+    {
+      "id": "593",
+      "city_id": "233",
+      "name": "Basiun",
+      "lang": "en"
+    },
+    {
+      "id": "594",
+      "city_id": "234",
+      "name": "Kafar Alziyat",
+      "lang": "en"
+    },
+    {
+      "id": "595",
+      "city_id": "235",
+      "name": "أبشواي",
+      "lang": "ar"
+    },
+    {
+      "id": "596",
+      "city_id": "236",
+      "name": "أطسا",
+      "lang": "ar"
+    },
+    {
+      "id": "597",
+      "city_id": "237",
+      "name": "الفيوم",
+      "lang": "ar"
+    },
+    {
+      "id": "598",
+      "city_id": "238",
+      "name": "سنورس",
+      "lang": "ar"
+    },
+    {
+      "id": "599",
+      "city_id": "239",
+      "name": "طامية",
+      "lang": "ar"
+    },
+    {
+      "id": "600",
+      "city_id": "235",
+      "name": "Abshaway",
+      "lang": "en"
+    },
+    {
+      "id": "601",
+      "city_id": "236",
+      "name": "Atsaa",
+      "lang": "en"
+    },
+    {
+      "id": "602",
+      "city_id": "237",
+      "name": "Alfayuwm",
+      "lang": "en"
+    },
+    {
+      "id": "603",
+      "city_id": "238",
+      "name": "Sanuris",
+      "lang": "en"
+    },
+    {
+      "id": "604",
+      "city_id": "239",
+      "name": "Tamia",
+      "lang": "en"
+    },
+    {
+      "id": "605",
+      "city_id": "240",
+      "name": "بنها العسل",
+      "lang": "ar"
+    },
+    {
+      "id": "606",
+      "city_id": "241",
+      "name": "قليوب",
+      "lang": "ar"
+    },
+    {
+      "id": "607",
+      "city_id": "242",
+      "name": "القناطر الخيرية",
+      "lang": "ar"
+    },
+    {
+      "id": "608",
+      "city_id": "243",
+      "name": "شبرا الخيمة",
+      "lang": "ar"
+    },
+    {
+      "id": "609",
+      "city_id": "244",
+      "name": "الخانكة",
+      "lang": "ar"
+    },
+    {
+      "id": "610",
+      "city_id": "245",
+      "name": "كفر شكر",
+      "lang": "ar"
+    },
+    {
+      "id": "611",
+      "city_id": "246",
+      "name": "شبين القناطر",
+      "lang": "ar"
+    },
+    {
+      "id": "612",
+      "city_id": "247",
+      "name": "طوخ",
+      "lang": "ar"
+    },
+    {
+      "id": "613",
+      "city_id": "240",
+      "name": "Banha Aleasl",
+      "lang": "en"
+    },
+    {
+      "id": "614",
+      "city_id": "241",
+      "name": "Qilyub",
+      "lang": "en"
+    },
+    {
+      "id": "615",
+      "city_id": "242",
+      "name": "Alqanatir Alkhayria",
+      "lang": "en"
+    },
+    {
+      "id": "616",
+      "city_id": "243",
+      "name": "Shubraa Alkhayima",
+      "lang": "en"
+    },
+    {
+      "id": "617",
+      "city_id": "244",
+      "name": "Alkhanika",
+      "lang": "en"
+    },
+    {
+      "id": "618",
+      "city_id": "245",
+      "name": "Kafar Shakar",
+      "lang": "en"
+    },
+    {
+      "id": "619",
+      "city_id": "246",
+      "name": "Shabin Alqanatir",
+      "lang": "en"
+    },
+    {
+      "id": "620",
+      "city_id": "247",
+      "name": "Tukh",
+      "lang": "en"
+    },
+    {
+      "id": "621",
+      "city_id": "248",
+      "name": "أبو تشت",
+      "lang": "ar"
+    },
+    {
+      "id": "622",
+      "city_id": "249",
+      "name": "فرشوط",
+      "lang": "ar"
+    },
+    {
+      "id": "623",
+      "city_id": "250",
+      "name": "نجع حمادي",
+      "lang": "ar"
+    },
+    {
+      "id": "624",
+      "city_id": "251",
+      "name": "الوقف",
+      "lang": "ar"
+    },
+    {
+      "id": "625",
+      "city_id": "252",
+      "name": "دشنا",
+      "lang": "ar"
+    },
+    {
+      "id": "626",
+      "city_id": "253",
+      "name": "قنا",
+      "lang": "ar"
+    },
+    {
+      "id": "627",
+      "city_id": "254",
+      "name": "قفط",
+      "lang": "ar"
+    },
+    {
+      "id": "628",
+      "city_id": "255",
+      "name": "قوص",
+      "lang": "ar"
+    },
+    {
+      "id": "629",
+      "city_id": "256",
+      "name": "نقادة",
+      "lang": "ar"
+    },
+    {
+      "id": "630",
+      "city_id": "257",
+      "name": "أرمنت",
+      "lang": "ar"
+    },
+    {
+      "id": "631",
+      "city_id": "258",
+      "name": "إسنا",
+      "lang": "ar"
+    },
+    {
+      "id": "632",
+      "city_id": "259",
+      "name": "الأقصر",
+      "lang": "ar"
+    },
+    {
+      "id": "633",
+      "city_id": "248",
+      "name": "Abu Tesht",
+      "lang": "en"
+    },
+    {
+      "id": "634",
+      "city_id": "249",
+      "name": "Farshout",
+      "lang": "en"
+    },
+    {
+      "id": "635",
+      "city_id": "250",
+      "name": "Nag Hammadi",
+      "lang": "en"
+    },
+    {
+      "id": "636",
+      "city_id": "251",
+      "name": "Endowment",
+      "lang": "en"
+    },
+    {
+      "id": "637",
+      "city_id": "252",
+      "name": "Deshna",
+      "lang": "en"
+    },
+    {
+      "id": "638",
+      "city_id": "253",
+      "name": "Qena",
+      "lang": "en"
+    },
+    {
+      "id": "639",
+      "city_id": "254",
+      "name": "Quit",
+      "lang": "en"
+    },
+    {
+      "id": "640",
+      "city_id": "255",
+      "name": "Qus",
+      "lang": "en"
+    },
+    {
+      "id": "641",
+      "city_id": "256",
+      "name": "Naqada",
+      "lang": "en"
+    },
+    {
+      "id": "642",
+      "city_id": "257",
+      "name": "Armant",
+      "lang": "en"
+    },
+    {
+      "id": "643",
+      "city_id": "258",
+      "name": "Esna",
+      "lang": "en"
+    },
+    {
+      "id": "644",
+      "city_id": "259",
+      "name": "Luxor",
+      "lang": "en"
+    },
+    {
+      "id": "645",
+      "city_id": "260",
+      "name": "كفر الشيخ",
+      "lang": "ar"
+    },
+    {
+      "id": "646",
+      "city_id": "261",
+      "name": "الحامول",
+      "lang": "ar"
+    },
+    {
+      "id": "647",
+      "city_id": "262",
+      "name": "بيلا",
+      "lang": "ar"
+    },
+    {
+      "id": "648",
+      "city_id": "263",
+      "name": "قلين",
+      "lang": "ar"
+    },
+    {
+      "id": "649",
+      "city_id": "264",
+      "name": "مطوبس",
+      "lang": "ar"
+    },
+    {
+      "id": "650",
+      "city_id": "265",
+      "name": "دسوق",
+      "lang": "ar"
+    },
+    {
+      "id": "651",
+      "city_id": "266",
+      "name": "بلطيم",
+      "lang": "ar"
+    },
+    {
+      "id": "652",
+      "city_id": "267",
+      "name": "سيدي سالم",
+      "lang": "ar"
+    },
+    {
+      "id": "653",
+      "city_id": "268",
+      "name": "الرياض",
+      "lang": "ar"
+    },
+    {
+      "id": "654",
+      "city_id": "269",
+      "name": "فوة",
+      "lang": "ar"
+    },
+    {
+      "id": "655",
+      "city_id": "260",
+      "name": "Kafar Alshaykh",
+      "lang": "en"
+    },
+    {
+      "id": "656",
+      "city_id": "261",
+      "name": "Alhamul",
+      "lang": "en"
+    },
+    {
+      "id": "657",
+      "city_id": "262",
+      "name": "Bila",
+      "lang": "en"
+    },
+    {
+      "id": "658",
+      "city_id": "263",
+      "name": "Qalin",
+      "lang": "en"
+    },
+    {
+      "id": "659",
+      "city_id": "264",
+      "name": "Mutubis",
+      "lang": "en"
+    },
+    {
+      "id": "660",
+      "city_id": "265",
+      "name": "Dusuq",
+      "lang": "en"
+    },
+    {
+      "id": "661",
+      "city_id": "266",
+      "name": "Baltim",
+      "lang": "en"
+    },
+    {
+      "id": "662",
+      "city_id": "267",
+      "name": "Sayidi Salim",
+      "lang": "en"
+    },
+    {
+      "id": "663",
+      "city_id": "268",
+      "name": "Alriyad",
+      "lang": "en"
+    },
+    {
+      "id": "664",
+      "city_id": "269",
+      "name": "Fua",
+      "lang": "en"
+    },
+    {
+      "id": "665",
+      "city_id": "270",
+      "name": " الحمام",
+      "lang": "ar"
+    },
+    {
+      "id": "666",
+      "city_id": "271",
+      "name": " العلمين",
+      "lang": "ar"
+    },
+    {
+      "id": "667",
+      "city_id": "272",
+      "name": " الضبعة",
+      "lang": "ar"
+    },
+    {
+      "id": "668",
+      "city_id": "273",
+      "name": " مطروح",
+      "lang": "ar"
+    },
+    {
+      "id": "669",
+      "city_id": "274",
+      "name": " النجيلة",
+      "lang": "ar"
+    },
+    {
+      "id": "670",
+      "city_id": "275",
+      "name": " براني",
+      "lang": "ar"
+    },
+    {
+      "id": "671",
+      "city_id": "276",
+      "name": " السلوم",
+      "lang": "ar"
+    },
+    {
+      "id": "672",
+      "city_id": "277",
+      "name": " سيوة",
+      "lang": "ar"
+    },
+    {
+      "id": "673",
+      "city_id": "270",
+      "name": "Alhamam",
+      "lang": "en"
+    },
+    {
+      "id": "674",
+      "city_id": "271",
+      "name": "Al-Alamayn",
+      "lang": "en"
+    },
+    {
+      "id": "675",
+      "city_id": "272",
+      "name": "Aldabiea",
+      "lang": "en"
+    },
+    {
+      "id": "676",
+      "city_id": "273",
+      "name": "Matruh",
+      "lang": "en"
+    },
+    {
+      "id": "677",
+      "city_id": "274",
+      "name": "Alnajila",
+      "lang": "en"
+    },
+    {
+      "id": "678",
+      "city_id": "275",
+      "name": "Barani",
+      "lang": "en"
+    },
+    {
+      "id": "679",
+      "city_id": "276",
+      "name": "Alsulum",
+      "lang": "en"
+    },
+    {
+      "id": "680",
+      "city_id": "277",
+      "name": "Siwa",
+      "lang": "en"
+    },
+    {
+      "id": "681",
+      "city_id": "278",
+      "name": "أشمون",
+      "lang": "ar"
+    },
+    {
+      "id": "682",
+      "city_id": "279",
+      "name": "الباجور",
+      "lang": "ar"
+    },
+    {
+      "id": "683",
+      "city_id": "280",
+      "name": "بركة السبع",
+      "lang": "ar"
+    },
+    {
+      "id": "684",
+      "city_id": "281",
+      "name": "منوف",
+      "lang": "ar"
+    },
+    {
+      "id": "685",
+      "city_id": "282",
+      "name": "مدينة السادات",
+      "lang": "ar"
+    },
+    {
+      "id": "686",
+      "city_id": "283",
+      "name": "سرس الليان",
+      "lang": "ar"
+    },
+    {
+      "id": "687",
+      "city_id": "284",
+      "name": "تلا",
+      "lang": "ar"
+    },
+    {
+      "id": "688",
+      "city_id": "285",
+      "name": "الشهداء",
+      "lang": "ar"
+    },
+    {
+      "id": "689",
+      "city_id": "286",
+      "name": "شبين الكوم",
+      "lang": "ar"
+    },
+    {
+      "id": "690",
+      "city_id": "287",
+      "name": "قويسنا",
+      "lang": "ar"
+    },
+    {
+      "id": "691",
+      "city_id": "278",
+      "name": "Ashamuwn",
+      "lang": "en"
+    },
+    {
+      "id": "692",
+      "city_id": "279",
+      "name": "Albajur",
+      "lang": "en"
+    },
+    {
+      "id": "693",
+      "city_id": "280",
+      "name": "Barikat Alsbe",
+      "lang": "en"
+    },
+    {
+      "id": "694",
+      "city_id": "281",
+      "name": "Munuf",
+      "lang": "en"
+    },
+    {
+      "id": "695",
+      "city_id": "282",
+      "name": "Madinat Alssadat",
+      "lang": "en"
+    },
+    {
+      "id": "696",
+      "city_id": "283",
+      "name": "Saris Allayan",
+      "lang": "en"
+    },
+    {
+      "id": "697",
+      "city_id": "284",
+      "name": "Tala",
+      "lang": "en"
+    },
+    {
+      "id": "698",
+      "city_id": "285",
+      "name": "Alshuhada",
+      "lang": "en"
+    },
+    {
+      "id": "699",
+      "city_id": "286",
+      "name": "Shabiyn Alkum",
+      "lang": "en"
+    },
+    {
+      "id": "700",
+      "city_id": "287",
+      "name": "Qawisna",
+      "lang": "en"
+    },
+    {
+      "id": "701",
+      "city_id": "288",
+      "name": "أبو قرقاص",
+      "lang": "ar"
+    },
+    {
+      "id": "702",
+      "city_id": "289",
+      "name": "بني مزار",
+      "lang": "ar"
+    },
+    {
+      "id": "703",
+      "city_id": "290",
+      "name": "دير مواس",
+      "lang": "ar"
+    },
+    {
+      "id": "704",
+      "city_id": "291",
+      "name": "سمالوط",
+      "lang": "ar"
+    },
+    {
+      "id": "705",
+      "city_id": "292",
+      "name": "العدوة",
+      "lang": "ar"
+    },
+    {
+      "id": "706",
+      "city_id": "293",
+      "name": "مطاي",
+      "lang": "ar"
+    },
+    {
+      "id": "707",
+      "city_id": "294",
+      "name": "مغاغة",
+      "lang": "ar"
+    },
+    {
+      "id": "708",
+      "city_id": "295",
+      "name": "ملوي",
+      "lang": "ar"
+    },
+    {
+      "id": "709",
+      "city_id": "296",
+      "name": "المنيا",
+      "lang": "ar"
+    },
+    {
+      "id": "710",
+      "city_id": "297",
+      "name": "المنيا الجديدة",
+      "lang": "ar"
+    },
+    {
+      "id": "711",
+      "city_id": "288",
+      "name": "Abu Qarqas",
+      "lang": "en"
+    },
+    {
+      "id": "712",
+      "city_id": "289",
+      "name": "Bani Mazar",
+      "lang": "en"
+    },
+    {
+      "id": "713",
+      "city_id": "290",
+      "name": "Dayr Mawas",
+      "lang": "en"
+    },
+    {
+      "id": "714",
+      "city_id": "291",
+      "name": "Samalut",
+      "lang": "en"
+    },
+    {
+      "id": "715",
+      "city_id": "292",
+      "name": "Aleudwa",
+      "lang": "en"
+    },
+    {
+      "id": "716",
+      "city_id": "293",
+      "name": "Matay",
+      "lang": "en"
+    },
+    {
+      "id": "717",
+      "city_id": "294",
+      "name": "Maghagha",
+      "lang": "en"
+    },
+    {
+      "id": "718",
+      "city_id": "295",
+      "name": "Mulwi",
+      "lang": "en"
+    },
+    {
+      "id": "719",
+      "city_id": "296",
+      "name": "Almania",
+      "lang": "en"
+    },
+    {
+      "id": "720",
+      "city_id": "297",
+      "name": "Almunya Aljadida",
+      "lang": "en"
+    },
+    {
+      "id": "721",
+      "city_id": "298",
+      "name": "الداخلة",
+      "lang": "ar"
+    },
+    {
+      "id": "722",
+      "city_id": "299",
+      "name": "الخارجة",
+      "lang": "ar"
+    },
+    {
+      "id": "723",
+      "city_id": "300",
+      "name": "الفرافرة",
+      "lang": "ar"
+    },
+    {
+      "id": "724",
+      "city_id": "301",
+      "name": "باريس",
+      "lang": "ar"
+    },
+    {
+      "id": "725",
+      "city_id": "298",
+      "name": "Aldaakhla",
+      "lang": "en"
+    },
+    {
+      "id": "726",
+      "city_id": "299",
+      "name": "Alkharja",
+      "lang": "en"
+    },
+    {
+      "id": "727",
+      "city_id": "300",
+      "name": "Alfarafra",
+      "lang": "en"
+    },
+    {
+      "id": "728",
+      "city_id": "301",
+      "name": "Paris",
+      "lang": "en"
+    }
+  ],
+  "countries": [
+    {
+      "id": "1",
+      "sortname": "eg",
+      "name": "Egypt",
+      "phonecode": "+20"
+    }
+  ],
+  "states": [
+    {
+      "id": "1",
+      "country_id": "1"
+    },
+    {
+      "id": "2",
+      "country_id": "1"
+    },
+    {
+      "id": "3",
+      "country_id": "1"
+    },
+    {
+      "id": "4",
+      "country_id": "1"
+    },
+    {
+      "id": "5",
+      "country_id": "1"
+    },
+    {
+      "id": "6",
+      "country_id": "1"
+    },
+    {
+      "id": "7",
+      "country_id": "1"
+    },
+    {
+      "id": "8",
+      "country_id": "1"
+    },
+    {
+      "id": "9",
+      "country_id": "1"
+    },
+    {
+      "id": "10",
+      "country_id": "1"
+    },
+    {
+      "id": "11",
+      "country_id": "1"
+    },
+    {
+      "id": "12",
+      "country_id": "1"
+    },
+    {
+      "id": "13",
+      "country_id": "1"
+    },
+    {
+      "id": "14",
+      "country_id": "1"
+    },
+    {
+      "id": "15",
+      "country_id": "1"
+    },
+    {
+      "id": "16",
+      "country_id": "1"
+    },
+    {
+      "id": "17",
+      "country_id": "1"
+    },
+    {
+      "id": "18",
+      "country_id": "1"
+    },
+    {
+      "id": "19",
+      "country_id": "1"
+    },
+    {
+      "id": "20",
+      "country_id": "1"
+    },
+    {
+      "id": "21",
+      "country_id": "1"
+    },
+    {
+      "id": "22",
+      "country_id": "1"
+    },
+    {
+      "id": "23",
+      "country_id": "1"
+    },
+    {
+      "id": "24",
+      "country_id": "1"
+    },
+    {
+      "id": "25",
+      "country_id": "1"
+    },
+    {
+      "id": "26",
+      "country_id": "1"
+    },
+    {
+      "id": "27",
+      "country_id": "1"
+    }
+  ],
+  "states_translation": [
+    {
+      "id": "1",
+      "state_id": "1",
+      "name": "القاهرة",
+      "lang": "ar"
+    },
+    {
+      "id": "2",
+      "state_id": "2",
+      "name": "الإسكندرية",
+      "lang": "ar"
+    },
+    {
+      "id": "3",
+      "state_id": "3",
+      "name": "الإسماعيلية",
+      "lang": "ar"
+    },
+    {
+      "id": "4",
+      "state_id": "4",
+      "name": "أسوان",
+      "lang": "ar"
+    },
+    {
+      "id": "5",
+      "state_id": "5",
+      "name": "أسيوط",
+      "lang": "ar"
+    },
+    {
+      "id": "6",
+      "state_id": "6",
+      "name": "الأقصر",
+      "lang": "ar"
+    },
+    {
+      "id": "7",
+      "state_id": "7",
+      "name": "البحر الأحمر",
+      "lang": "ar"
+    },
+    {
+      "id": "8",
+      "state_id": "8",
+      "name": "البحيرة",
+      "lang": "ar"
+    },
+    {
+      "id": "9",
+      "state_id": "9",
+      "name": "بني سويف",
+      "lang": "ar"
+    },
+    {
+      "id": "10",
+      "state_id": "10",
+      "name": "بورسعيد",
+      "lang": "ar"
+    },
+    {
+      "id": "11",
+      "state_id": "11",
+      "name": "جنوب سيناء",
+      "lang": "ar"
+    },
+    {
+      "id": "12",
+      "state_id": "12",
+      "name": "الجيزة",
+      "lang": "ar"
+    },
+    {
+      "id": "13",
+      "state_id": "13",
+      "name": "الدقهلية",
+      "lang": "ar"
+    },
+    {
+      "id": "14",
+      "state_id": "14",
+      "name": "دمياط",
+      "lang": "ar"
+    },
+    {
+      "id": "15",
+      "state_id": "15",
+      "name": "سوهاج",
+      "lang": "ar"
+    },
+    {
+      "id": "16",
+      "state_id": "16",
+      "name": "السويس",
+      "lang": "ar"
+    },
+    {
+      "id": "17",
+      "state_id": "17",
+      "name": "الشرقية",
+      "lang": "ar"
+    },
+    {
+      "id": "18",
+      "state_id": "18",
+      "name": "شمال سيناء",
+      "lang": "ar"
+    },
+    {
+      "id": "19",
+      "state_id": "19",
+      "name": "الغربية",
+      "lang": "ar"
+    },
+    {
+      "id": "20",
+      "state_id": "20",
+      "name": "الفيوم",
+      "lang": "ar"
+    },
+    {
+      "id": "21",
+      "state_id": "21",
+      "name": "القليوبية",
+      "lang": "ar"
+    },
+    {
+      "id": "22",
+      "state_id": "22",
+      "name": "قنا",
+      "lang": "ar"
+    },
+    {
+      "id": "23",
+      "state_id": "23",
+      "name": "كفر الشيخ",
+      "lang": "ar"
+    },
+    {
+      "id": "24",
+      "state_id": "24",
+      "name": "مطروح",
+      "lang": "ar"
+    },
+    {
+      "id": "25",
+      "state_id": "25",
+      "name": "المنوفية",
+      "lang": "ar"
+    },
+    {
+      "id": "26",
+      "state_id": "26",
+      "name": "المنيا",
+      "lang": "ar"
+    },
+    {
+      "id": "27",
+      "state_id": "27",
+      "name": "الوادي الجديد",
+      "lang": "ar"
+    },
+    {
+      "id": "32",
+      "state_id": "1",
+      "name": "Cairo",
+      "lang": "en"
+    },
+    {
+      "id": "33",
+      "state_id": "2",
+      "name": "Alexandria",
+      "lang": "en"
+    },
+    {
+      "id": "34",
+      "state_id": "3",
+      "name": "Ismailia",
+      "lang": "en"
+    },
+    {
+      "id": "35",
+      "state_id": "4",
+      "name": "Aswan",
+      "lang": "en"
+    },
+    {
+      "id": "36",
+      "state_id": "5",
+      "name": "Asyut",
+      "lang": "en"
+    },
+    {
+      "id": "37",
+      "state_id": "6",
+      "name": "Luxor",
+      "lang": "en"
+    },
+    {
+      "id": "38",
+      "state_id": "7",
+      "name": "Red Sea",
+      "lang": "en"
+    },
+    {
+      "id": "39",
+      "state_id": "8",
+      "name": "Beheira",
+      "lang": "en"
+    },
+    {
+      "id": "40",
+      "state_id": "9",
+      "name": "Beni Suef",
+      "lang": "en"
+    },
+    {
+      "id": "41",
+      "state_id": "10",
+      "name": "Port Said",
+      "lang": "en"
+    },
+    {
+      "id": "42",
+      "state_id": "11",
+      "name": "South Sinai",
+      "lang": "en"
+    },
+    {
+      "id": "43",
+      "state_id": "12",
+      "name": "Giza",
+      "lang": "en"
+    },
+    {
+      "id": "44",
+      "state_id": "13",
+      "name": "Dakahlia",
+      "lang": "en"
+    },
+    {
+      "id": "45",
+      "state_id": "14",
+      "name": "Damietta",
+      "lang": "en"
+    },
+    {
+      "id": "46",
+      "state_id": "15",
+      "name": "Sohag",
+      "lang": "en"
+    },
+    {
+      "id": "47",
+      "state_id": "16",
+      "name": "Suez",
+      "lang": "en"
+    },
+    {
+      "id": "48",
+      "state_id": "17",
+      "name": "Sharqia",
+      "lang": "en"
+    },
+    {
+      "id": "49",
+      "state_id": "18",
+      "name": "North Sinai",
+      "lang": "en"
+    },
+    {
+      "id": "50",
+      "state_id": "19",
+      "name": "Gharbia",
+      "lang": "en"
+    },
+    {
+      "id": "51",
+      "state_id": "20",
+      "name": "Faiyum",
+      "lang": "en"
+    },
+    {
+      "id": "52",
+      "state_id": "21",
+      "name": "Qalyubia",
+      "lang": "en"
+    },
+    {
+      "id": "53",
+      "state_id": "22",
+      "name": "Qena",
+      "lang": "en"
+    },
+    {
+      "id": "54",
+      "state_id": "23",
+      "name": "Kafr El Sheikh",
+      "lang": "en"
+    },
+    {
+      "id": "55",
+      "state_id": "24",
+      "name": "Matruh",
+      "lang": "en"
+    },
+    {
+      "id": "56",
+      "state_id": "25",
+      "name": "Monufia",
+      "lang": "en"
+    },
+    {
+      "id": "57",
+      "state_id": "26",
+      "name": "Minya",
+      "lang": "en"
+    },
+    {
+      "id": "58",
+      "state_id": "27",
+      "name": "New Valley",
+      "lang": "en"
+    }
+  ]
+}
