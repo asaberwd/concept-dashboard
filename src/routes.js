@@ -38,6 +38,7 @@ const User = React.lazy(() => import('./views/Users/User'));
 const ViewUser = React.lazy(() => import('./views/Icons/Users/User'));
 const ViewLead = React.lazy(() => import('./views/Lead/Lead/LeadInfo'));
 const AddLead = React.lazy(() => import('./views/Lead/AddLead'));
+const AddCompany = React.lazy(() => import('./views/Lead/AddCompany'));
 
 
 
@@ -86,8 +87,8 @@ const routes = [
   { path: '/users', exact: true,  name: 'Users', component: Users },
   { path: '/users/:id', exact: true, name: 'Users Details', component: User },
   { path: '/user/:id', exact: true, name: 'View User Details', component: ViewUser },
-  { path: '/lead/:id', exact: true, name: 'View lead Details', component: ViewLead },
-
+  { path: '/lead/addcompany', exact: true, name: 'Add New Company', component: AddCompany },
+  { path: '/lead/:id', exact: true, name: 'View Lead Details', component: ViewLead },
 
 ];
 

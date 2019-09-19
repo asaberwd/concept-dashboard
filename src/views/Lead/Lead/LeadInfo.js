@@ -115,48 +115,48 @@ class User extends Component {
                     </Table>
                 </CardBody>
               </Card>
+
+              <Card >
+                <CardHeader>
+                <strong> Comments </strong>
+                </CardHeader>
+                <CardBody>
+                <Table responsive striped>
+                      <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Agent</th>
+                        <th>comment</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>25/09/2019</td>
+                        <td>ahmed</td>
+                        <td>comment</td>
+                      </tr>
+                      </tbody>
+
+                </Table>
+                <Col >
+                <Form action="" method="post" className="form-horizontal">
+                <FormGroup >
+                    <Label htmlFor="textarea-input"> Add Comment </Label>
+                    <Input type="textarea" name="comment" id="textarea-input" rows="6"
+                            placeholder="Content..." />
+                </FormGroup>
+                <CardFooter>
+                    <Button type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
+                </CardFooter>
+                </Form>
+                </Col>
+            </CardBody>
+            </Card>
             </Col>
             <MakeOrder />
             
 
-        <Col xs="12" sm="6">
-        <Card >
-            <CardHeader>
-            <strong> Comments </strong>
-            </CardHeader>
-            <CardBody>
-            <Table responsive striped>
-                  <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Agent</th>
-                    <th>comment</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>25/09/2019</td>
-                    <td>ahmed</td>
-                    <td>comment</td>
-                  </tr>
-                  </tbody>
-
-            </Table>
-            <Col >
-            <Form action="" method="post" className="form-horizontal">
-            <FormGroup >
-                <Label htmlFor="textarea-input"> Add Comment </Label>
-                <Input type="textarea" name="comment" id="textarea-input" rows="6"
-                        placeholder="Content..." />
-            </FormGroup>
-            <CardFooter>
-                <Button type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
-            </CardFooter>
-            </Form>
-            </Col>
-        </CardBody>
-        </Card>
-        </Col>
+        
           </Row>
         </div>
       )

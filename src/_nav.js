@@ -206,6 +206,11 @@ export default {
           icon: 'icon-bell',
         },
         {
+          name: 'AddCompany',
+          url: '/lead/addcompany',
+          icon: 'icon-bell',
+        },
+        {
           name: 'Badges',
           url: '/lead/badges',
           icon: 'icon-bell',
