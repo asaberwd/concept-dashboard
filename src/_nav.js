@@ -11,25 +11,6 @@ export default {
     },
     {
       title: true,
-      name: 'Theme',
-      wrapper: {            // optional wrapper object
-        element: '',        // required valid HTML5 element tag
-        attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
-      },
-      class: ''             // optional class names space delimited list for title item ex: "text-center"
-    },
-    {
-      name: 'Colors',
-      url: '/theme/colors',
-      icon: 'icon-drop',
-    },
-    {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'icon-pencil',
-    },
-    {
-      title: true,
       name: 'Components',
       wrapper: {
         element: '',
@@ -151,18 +132,30 @@ export default {
       ],
     },
     {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'icon-pie-chart',
+      name: 'orders',
+      url: '/orders',
+      icon: 'icon-cursor',
+      children: [
+        {
+          name: 'Orders',
+          url: '/orders/orders',
+          icon: 'icon-cursor',
+        },
+        {
+          name: 'Add order',
+          url: '/orders/addorder',
+          icon: 'icon-cursor',
+        },
+      ],
     },
     {
-      name: 'Icons',
-      url: '/icons',
+      name: 'Roles',
+      url: '/roles',
       icon: 'icon-star',
       children: [
         {
-          name: 'CoreUI Icons',
-          url: '/icons/coreui-icons',
+          name: 'AddUser',
+          url: '/roles/AddUser',
           icon: 'icon-star',
           badge: {
             variant: 'info',
@@ -171,12 +164,12 @@ export default {
         },
         {
           name: 'Users',
-          url: '/icons/viewUsers',
+          url: '/roles/viewUsers',
           icon: 'icon-star',
         },
         {
           name: 'Font Awesome',
-          url: '/icons/font-awesome',
+          url: '/roles/font-awesome',
           icon: 'icon-star',
           badge: {
             variant: 'secondary',
@@ -185,7 +178,7 @@ export default {
         },
         {
           name: 'Simple Line Icons',
-          url: '/icons/simple-line-icons',
+          url: '/roles/simple-line-icons',
           icon: 'icon-star',
         },
       ],
@@ -221,6 +214,11 @@ export default {
           icon: 'icon-bell',
         },
       ],
+    },
+    {
+      name: 'Charts',
+      url: '/charts',
+      icon: 'icon-pie-chart',
     },
     {
       name: 'Widgets',
@@ -270,21 +268,6 @@ export default {
       url: '/dashboard',
       icon: 'icon-ban',
       attributes: { disabled: true },
-    },
-    {
-      name: 'Download CoreUI',
-      url: 'https://coreui.io/react/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: "noopener" },
-    },
-    {
-      name: 'Try CoreUI PRO',
-      url: 'https://coreui.io/pro/react/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: "noopener" },
     },
   ],
 };

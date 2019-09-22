@@ -19,9 +19,11 @@ import {
 } from './Base';
 
 import { AddProduct, ButtonGroups, Products, BrandButtons } from './Buttons';
+import { AddOrder, Orders } from './Orders';
+
 import Charts from './Charts';
 import Dashboard from './Dashboard';
-import { CoreUIIcons, Users, FontAwesome, SimpleLineIcons } from './Icons';
+import { AddUser, Users, FontAwesome, SimpleLineIcons } from './Roles';
 import { Lead, Badges, Modals, AddLead, AddCompany } from './Lead';
 import { Login, Page404, Page500, Register } from './Pages';
 import { Colors, Typography } from './Theme';
@@ -31,7 +33,7 @@ export {
   Badges,
   Typography,
   Colors,
-  CoreUIIcons,
+  AddUser,
   Page404,
   Page500,
   Register,
@@ -47,6 +49,8 @@ export {
   Products,
   ButtonGroups,
   BrandButtons,
+  Orders,
+  AddOrder,
   Tooltips,
   Tabs,
   Tables,

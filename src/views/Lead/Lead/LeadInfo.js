@@ -19,8 +19,11 @@ class User extends Component {
             })
             console.log('error===', res.error)
         }else{
+          let phone = res.data.data.telephone
+          phone = phone.substring(0,phone.length -4).concat('****')
             this.setState({
-                lead : res.data.data
+                lead : res.data.data,
+                phone
             })
             console.log('data===', res.data)
         }
@@ -62,9 +65,23 @@ class User extends Component {
     }
   }
 
+  handelShow = ()=>{
+    
+    this.setState({
+      show:true
+    })
+
+    setTimeout(()=>{
+      this.setState({
+        show:false
+      })
+    },
+    20000)
+  }
+
 
   render() {
-    const { lead , states, cities } = this.state
+    const { lead , phone, show } = this.state
     console.log('lead', lead)
     console.log('cities', this.state.cities)
     if(lead){
@@ -97,7 +114,7 @@ class User extends Component {
                         </tr>
                         <tr>
                           <td>phone</td>
-                          <td><strong> {lead.telephone} </strong></td>
+                          <td><strong> { show?lead.telephone:phone} </strong> <button disabled={ show?true:false} onClick={this.handelShow}>show</button></td>
                         </tr>
                         <tr>
                           <td>sales agent</td>
@@ -153,7 +170,7 @@ class User extends Component {
             </CardBody>
             </Card>
             </Col>
-            <MakeOrder />
+            <MakeOrder lead={lead._id}/>
             
 
         

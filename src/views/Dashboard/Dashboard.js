@@ -22,6 +22,8 @@ import {
 } from 'reactstrap';
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
+import axios from 'axios'
+
 
 const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
 
@@ -465,6 +467,28 @@ class Dashboard extends Component {
     };
   }
 
+  componentDidMount = ()=>{
+
+    axios.get(`http://localhost:3000/api/order/statics`)
+        .then((res)=>{
+            if(res.error){
+                this.setState({
+                    error : res.error
+                })
+                console.log('error===', res.error)
+            }else{
+                this.setState({
+                    orders : res.data.data
+                })
+                console.log('data===', res.data)
+            }
+            
+        })
+        .catch(err =>{
+            console.log('error loading resource')
+        })
+  }
+
   toggle() {
     this.setState({
       dropdownOpen: !this.state.dropdownOpen,
@@ -479,6 +503,7 @@ class Dashboard extends Component {
 
   loading = () => <div className="animated fadeIn pt-1 text-center">Loading...</div>
 
+  
   render() {
 
     return (
@@ -500,8 +525,8 @@ class Dashboard extends Component {
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
-                <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div className="text-value">Total orders : { this.state.orders?this.state.orders:250 }</div>
+                <div>cash collected : </div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: '70px' }}>
                 <Line data={cardChartData2} options={cardChartOpts2} height={70} />

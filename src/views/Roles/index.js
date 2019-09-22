@@ -1,8 +1,8 @@
-import CoreUIIcons from './CoreUIIcons';
+import AddUser from './AddUser';
 import Users from './Users';
 import FontAwesome from './FontAwesome';
 import SimpleLineIcons from './SimpleLineIcons';
 
 export {
-  CoreUIIcons, Users, FontAwesome, SimpleLineIcons
+  AddUser, Users, FontAwesome, SimpleLineIcons
 };

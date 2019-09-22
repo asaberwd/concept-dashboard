@@ -42,7 +42,8 @@ class MakeOrder extends React.Component {
       })
 
       this.setState({
-        states
+        states,
+        leadId: this.props.lead
       })
 
     }
@@ -106,7 +107,7 @@ class MakeOrder extends React.Component {
         let kk = JSON.parse( JSON.stringify(this.state.orderProducts) )
         console.log('proooo', event.target.value, )
         let k = parseInt(key)
-        kk[k].product_id = product._id
+        kk[k].productId = product._id
         kk[k].name = product.name
         kk[k].price = product.price
         kk[k].total = kk[k].price * kk[k].quantity
@@ -145,7 +146,7 @@ class MakeOrder extends React.Component {
 
       e.preventDefault()
 
-        axios.post('http://localhost:3000/api/addorder', this.state.orderProducts)
+        axios.post('http://localhost:3000/api/addorder', this.state)
         .then((res)=>{
             console.log('res ===',res.data.data)
             this.setState({
@@ -258,9 +259,7 @@ class MakeOrder extends React.Component {
                             return <option value={company._id}>{company.name}</option>
                         }) :       <option value="0">No companies available</option>   }
                         </Input>
-                        <Label htmlFor="company"> shipping cost </Label>
-                        <Input type="text" name="shipping" id="disabled3" value={this.state.shipping} disabled >
-                        </Input>
+                        
                     </FormGroup>
 
                 <FormGroup row className="my-0">

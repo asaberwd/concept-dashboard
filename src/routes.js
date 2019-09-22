@@ -23,22 +23,26 @@ const ButtonGroups = React.lazy(() => import('./views/Buttons/ButtonGroups'));
 const Products = React.lazy(() => import('./views/Buttons/Products'));
 const Charts = React.lazy(() => import('./views/Charts'));
 const Dashboard = React.lazy(() => import('./views/Dashboard'));
-const CoreUIIcons = React.lazy(() => import('./views/Icons/CoreUIIcons'));
-const ViewUsers = React.lazy(() => import('./views/Icons/Users'));
-const FontAwesome = React.lazy(() => import('./views/Icons/FontAwesome'));
-const SimpleLineIcons = React.lazy(() => import('./views/Icons/SimpleLineIcons'));
+const AddUser = React.lazy(() => import('./views/Roles/AddUser'));
+const ViewUsers = React.lazy(() => import('./views/Roles/Users'));
+const FontAwesome = React.lazy(() => import('./views/Roles/FontAwesome'));
+const SimpleLineIcons = React.lazy(() => import('./views/Roles/SimpleLineIcons'));
 const Lead = React.lazy(() => import('./views/Lead/Lead'));
 const Badges = React.lazy(() => import('./views/Lead/Badges'));
 const Modals = React.lazy(() => import('./views/Lead/Modals'));
-const Colors = React.lazy(() => import('./views/Theme/Colors'));
-const Typography = React.lazy(() => import('./views/Theme/Typography'));
 const Widgets = React.lazy(() => import('./views/Widgets/Widgets'));
 const Users = React.lazy(() => import('./views/Users/Users'));
 const User = React.lazy(() => import('./views/Users/User'));
-const ViewUser = React.lazy(() => import('./views/Icons/Users/User'));
+const ViewUser = React.lazy(() => import('./views/Roles/Users/User'));
 const ViewLead = React.lazy(() => import('./views/Lead/Lead/LeadInfo'));
 const AddLead = React.lazy(() => import('./views/Lead/AddLead'));
 const AddCompany = React.lazy(() => import('./views/Lead/AddCompany'));
+
+const Orders = React.lazy(() => import('./views/Orders/Orders'));
+const AddOrder = React.lazy(() => import('./views/Orders/AddOrder'));
+const SingleOrder = React.lazy(() => import('./views/Orders/Orders/OrderData'));
+
+
 
 
 
@@ -46,9 +50,6 @@ const AddCompany = React.lazy(() => import('./views/Lead/AddCompany'));
 const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
-  { path: '/theme', exact: true, name: 'Theme', component: Colors },
-  { path: '/theme/colors', name: 'Colors', component: Colors },
-  { path: '/theme/typography', name: 'Typography', component: Typography },
   { path: '/base', exact: true, name: 'Base', component: Cards },
   { path: '/base/cards', name: 'Cards', component: Cards },
   { path: '/base/forms', name: 'Forms', component: Forms },
@@ -67,16 +68,24 @@ const routes = [
   { path: '/base/popovers', name: 'Popovers', component: Popovers },
   { path: '/base/progress-bar', name: 'Progress Bar', component: ProgressBar },
   { path: '/base/tooltips', name: 'Tooltips', component: Tooltips },
+
   { path: '/product', exact: true, name: 'Product', component: Products },
   { path: '/product/products', name: 'Products', component: Products },
-  { path: '/product/addproduct', name: 'Button Dropdowns', component: AddProduct },
+  { path: '/product/addproduct', name: 'Add Product', component: AddProduct },
   { path: '/product/button-groups', name: 'Button Groups', component: ButtonGroups },
   { path: '/product/brand-buttons', name: 'Brand Buttons', component: BrandButtons },
-  { path: '/icons', exact: true, name: 'Icons', component: CoreUIIcons },
-  { path: '/icons/coreui-icons', name: 'CoreUI Icons', component: CoreUIIcons },
-  { path: '/icons/viewusers', name: 'ViewUsers', component: ViewUsers },
-  { path: '/icons/font-awesome', name: 'Font Awesome', component: FontAwesome },
-  { path: '/icons/simple-line-icons', name: 'Simple Line Icons', component: SimpleLineIcons },
+
+
+  { path: '/orders', exact: true, name: 'orders', component: Orders },
+  { path: '/orders/orders', name: 'view orders', component: Orders },
+  { path: '/orders/addorder', name: 'Add Order', component: AddOrder },
+
+
+  { path: '/roles', exact: true, name: 'Icons', component: ViewUsers },
+  { path: '/roles/adduser', name: 'CoreUI Icons', component: AddUser },
+  { path: '/roles/viewusers', name: 'ViewUsers', component: ViewUsers },
+  { path: '/roles/font-awesome', name: 'Font Awesome', component: FontAwesome },
+  { path: '/roles/simple-line-icons', name: 'Simple Line Icons', component: SimpleLineIcons },
   { path: '/lead', exact: true, name: 'Lead', component: Lead },
   { path: '/lead/lead', name: 'Lead', component: Lead },
   { path: '/lead/addlead', name: 'Lead', component: AddLead },
@@ -89,6 +98,8 @@ const routes = [
   { path: '/user/:id', exact: true, name: 'View User Details', component: ViewUser },
   { path: '/lead/addcompany', exact: true, name: 'Add New Company', component: AddCompany },
   { path: '/lead/:id', exact: true, name: 'View Lead Details', component: ViewLead },
+  { path: '/order/:id', exact: true, name: 'View Order Details', component: SingleOrder },
+
 
 ];
 
