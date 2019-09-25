@@ -9,7 +9,7 @@ export default {
         text: 'NEW',
       },
     },
-    {
+    /*{
       title: true,
       name: 'Components',
       wrapper: {
@@ -103,7 +103,7 @@ export default {
           icon: 'icon-puzzle',
         },
       ],
-    },
+    },*/
     {
       name: 'Product',
       url: '/product',
@@ -215,11 +215,11 @@ export default {
         },
       ],
     },
-    {
+    /*{
       name: 'Charts',
       url: '/charts',
       icon: 'icon-pie-chart',
-    },
+    }, 
     {
       name: 'Widgets',
       url: '/widgets',
@@ -228,11 +228,11 @@ export default {
         variant: 'info',
         text: 'NEW',
       },
-    },
+    },*/
     {
       divider: true,
     },
-    {
+    /*{
       title: true,
       name: 'Extras',
     },
@@ -268,6 +268,6 @@ export default {
       url: '/dashboard',
       icon: 'icon-ban',
       attributes: { disabled: true },
-    },
+    },*/
   ],
 };

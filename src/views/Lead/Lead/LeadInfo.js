@@ -3,11 +3,11 @@ import { Card, CardBody, CardHeader, Col, Row, Table, FormGroup, Input, Label, F
 import axios from 'axios'
 import settings from './../../../assets/csvjson.json'
 import MakeOrder from './order'
+import Calls from './calls'
 
 class User extends Component {
 
   state ={
-    
   }
 
   componentDidMount = ()=>{
@@ -23,6 +23,7 @@ class User extends Component {
           phone = phone.substring(0,phone.length -4).concat('****')
             this.setState({
                 lead : res.data.data,
+                calls: res.data.calls,
                 phone
             })
             console.log('data===', res.data)
@@ -81,7 +82,7 @@ class User extends Component {
 
 
   render() {
-    const { lead , phone, show } = this.state
+    const { lead , phone, show, calls } = this.state
     console.log('lead', lead)
     console.log('cities', this.state.cities)
     if(lead){
@@ -132,44 +133,9 @@ class User extends Component {
                     </Table>
                 </CardBody>
               </Card>
+              <Calls  calls={calls} status={lead.status} lead={lead._id} user={lead.user ?lead.user._id : ''} />
 
-              <Card >
-                <CardHeader>
-                <strong> Comments </strong>
-                </CardHeader>
-                <CardBody>
-                <Table responsive striped>
-                      <thead>
-                      <tr>
-                        <th>Date</th>
-                        <th>Agent</th>
-                        <th>comment</th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      <tr>
-                        <td>25/09/2019</td>
-                        <td>ahmed</td>
-                        <td>comment</td>
-                      </tr>
-                      </tbody>
-
-                </Table>
-                <Col >
-                <Form action="" method="post" className="form-horizontal">
-                <FormGroup >
-                    <Label htmlFor="textarea-input"> Add Comment </Label>
-                    <Input type="textarea" name="comment" id="textarea-input" rows="6"
-                            placeholder="Content..." />
-                </FormGroup>
-                <CardFooter>
-                    <Button type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
-                </CardFooter>
-                </Form>
-                </Col>
-            </CardBody>
-            </Card>
-            </Col>
+              </Col>
             <MakeOrder lead={lead._id}/>
             
 

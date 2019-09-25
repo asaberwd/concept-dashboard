@@ -10,7 +10,7 @@ const getBadge = (status) => {
           'primary'
 }
 
-class User extends Component {
+class Orders extends Component {
 
 
     render(){
@@ -34,4 +34,4 @@ class User extends Component {
     }
 }
 
-export default User;
+export default Orders;

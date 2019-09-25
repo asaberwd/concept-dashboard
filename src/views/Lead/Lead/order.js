@@ -291,7 +291,7 @@ class MakeOrder extends React.Component {
 
                 <FormGroup>
                   <Label htmlFor="street"> Comment </Label>
-                  <Input type="textarea" name="comment" id="street" placeholder="Enter street name" onChange={this.handleChange} />
+                  <Input type="textarea" name="comment" id="street" placeholder="Enter speciall comment" onChange={this.handleChange} />
                 </FormGroup>
 
               </CardBody>
