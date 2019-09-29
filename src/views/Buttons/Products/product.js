@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardHeader, Col, Row, CardFooter } from 'reactstrap';
+import {  Col } from 'reactstrap';
 
+import moment from 'moment'
 
 class Product extends Component {
 
@@ -21,7 +22,7 @@ class Product extends Component {
                     </div>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">Available: {pro.count} items </li>
-                        <li className="list-group-item">Created at: {pro.createdAt} </li>
+                        <li className="list-group-item">Created at: {moment(pro.createdAt).format('MMMM Do YYYY')} </li>
                     </ul>
                     <div className="card-body">
                         <a href="#" className="card-link">Product details</a>

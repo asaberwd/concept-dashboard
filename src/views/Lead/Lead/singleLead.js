@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Progress } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import moment from 'moment'
 
 
 class SingleLead extends Component { 
@@ -20,7 +21,7 @@ class SingleLead extends Component {
               <td>
                 <div> <Link to={leadLink}> {lead.fullName} </Link> </div>
                 <div className="small text-muted">
-                  <span>{lead.status}</span> | Registered:{lead.registerDate}
+                  <span>{lead.status}</span> | Registered:{moment(lead.registerDate).format('MMMM Do YYYY')}
                 </div>
               </td>
               <td className="text-center">

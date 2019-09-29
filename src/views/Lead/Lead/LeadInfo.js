@@ -4,6 +4,7 @@ import axios from 'axios'
 import settings from './../../../assets/csvjson.json'
 import MakeOrder from './order'
 import Calls from './calls'
+import Schedule from './schedule'
 
 class User extends Component {
 
@@ -134,10 +135,11 @@ class User extends Component {
                 </CardBody>
               </Card>
               <Calls  calls={calls} status={lead.status} lead={lead._id} user={lead.user ?lead.user._id : ''} />
-
               </Col>
-            <MakeOrder lead={lead._id}/>
-            
+              <Col lg={6}>
+                <Schedule user={lead.user ?lead.user._id : ''} lead={lead._id} />
+                <MakeOrder lead={lead._id}/>
+              </Col>
 
         
           </Row>

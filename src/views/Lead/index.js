@@ -2,8 +2,8 @@ import Lead from './Lead';
 import AddLead from './AddLead';
 import AddCompany from './AddCompany'
 import Badges from './Badges';
-import Modals from './Modals';
+import UploadLead from './UploadLead';
 
 export {
-  Lead, Badges, Modals, AddLead, AddCompany
+  Lead, Badges, UploadLead, AddLead, AddCompany
 };

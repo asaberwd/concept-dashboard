@@ -24,7 +24,7 @@ import { AddOrder, Orders } from './Orders';
 import Charts from './Charts';
 import Dashboard from './Dashboard';
 import { AddUser, Users, FontAwesome, SimpleLineIcons } from './Roles';
-import { Lead, Badges, Modals, AddLead, AddCompany } from './Lead';
+import { Lead, Badges, UploadLead, AddLead, AddCompany } from './Lead';
 import { Login, Page404, Page500, Register } from './Pages';
 import { Colors, Typography } from './Theme';
 import Widgets from './Widgets';
@@ -38,7 +38,7 @@ export {
   Page500,
   Register,
   Login,
-  Modals,
+  UploadLead,
   AddLead,
   Lead,
   AddCompany,

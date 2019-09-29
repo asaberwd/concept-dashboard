@@ -29,6 +29,8 @@ class addLead extends Component {
     event.preventDefault()
     const { fullName, country, telephone, lead, cost } = this.state
 
+    let form = new FormData()
+
     let newLead = { fullName, country, telephone, lead, cost }
     if(!lead) delete newLead.lead
 
@@ -58,7 +60,7 @@ class addLead extends Component {
       <div>
   <form onSubmit={this.onSubmit} >
   <fieldset>
-    <legend>Add New Lead</legend>
+    <legend>Add leads By Excel</legend>
     <div className="form-group row">
     </div>
     <div className="form-group">
@@ -77,23 +79,19 @@ class addLead extends Component {
     </div>
 
     <div className="form-group">
-      <label > Refered By </label>
-      <input type="text" name="lead" className="form-control" id="exampleInputEmail1" onChange={this.handleChange} placeholder="Enter lead id"/>
-    </div>
-    
-    <div className="form-group">
-      <label > cost </label>
-      <input type="number" name="cost" className="form-control" id="exampleInputEmail1" onChange={this.handleChange} placeholder="Enter cost of lead"/>
+      <label > product image </label>
+      <input type="file" name="selectedFile" multiple className="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" onChange={this.handleUpload}/>
+      <small id="fileHelp" className="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
     </div>
 
     { res?(<div class="alert alert-dismissible alert-success">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Great job!</strong> <a href="#" class="alert-link">new Lead added succesfully</a> Lead name : {res.fullName}.
+      <strong>Great job!</strong> <a href="#" class="alert-link">file uploaded succesfully</a> Lead name : {res.fullName}.
       </div>):''}
 
     {error?(<div class="alert alert-dismissible alert-danger">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>Oh sorry!</strong> <a href="#" class="alert-link">error adding new Lead :</a> {error.response.data.error.errmsg}.
+    <strong>Oh sorry!</strong> <a href="#" class="alert-link">error uploading file :</a> {error.response.data.error.errmsg}.
     </div>):''}
 
 

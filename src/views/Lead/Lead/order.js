@@ -169,7 +169,6 @@ class MakeOrder extends React.Component {
         const { states, cities, products, orderProducts, total, companies } = this.state
         console.log('order state', this.state)
         return(
-            <Col xs="12" sm="6">
             <Form onSubmit={this.handelSubmit}>
             <Card>
               <CardHeader>
@@ -300,7 +299,6 @@ class MakeOrder extends React.Component {
             </CardFooter>
             </Card>
           </Form>
-          </Col>
         )
     }
 }

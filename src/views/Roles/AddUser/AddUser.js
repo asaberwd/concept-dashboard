@@ -102,9 +102,9 @@ class addLead extends Component {
         <strong>Great job!</strong> <a href="#" class="alert-link">new user added succesfully</a> user name : {res}.
         </div>):''}
 
-    { error?(<div class="alert alert-dismissible alert-success">
+    { error?(<div class="alert alert-dismissible alert-warning">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>sorry!</strong> <a href="#" class="alert-link">error adding new user</a> error is : : {error}.
+    <strong>sorry!</strong> <a href="#" class="alert-link">error adding new user</a> error is : : {error.response.data.error.errmsg}.
     </div>):''}
 
 

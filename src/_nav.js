@@ -209,8 +209,8 @@ export default {
           icon: 'icon-bell',
         },
         {
-          name: 'Modals',
-          url: '/lead/modals',
+          name: 'UploadLead',
+          url: '/lead/uploadlead',
           icon: 'icon-bell',
         },
       ],

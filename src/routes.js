@@ -29,7 +29,7 @@ const FontAwesome = React.lazy(() => import('./views/Roles/FontAwesome'));
 const SimpleLineIcons = React.lazy(() => import('./views/Roles/SimpleLineIcons'));
 const Lead = React.lazy(() => import('./views/Lead/Lead'));
 const Badges = React.lazy(() => import('./views/Lead/Badges'));
-const Modals = React.lazy(() => import('./views/Lead/Modals'));
+const UploadLead = React.lazy(() => import('./views/Lead/UploadLead'));
 const Widgets = React.lazy(() => import('./views/Widgets/Widgets'));
 const Users = React.lazy(() => import('./views/Users/Users'));
 const User = React.lazy(() => import('./views/Users/User'));
@@ -90,7 +90,7 @@ const routes = [
   { path: '/lead/lead', name: 'Lead', component: Lead },
   { path: '/lead/addlead', name: 'Lead', component: AddLead },
   { path: '/lead/badges', name: 'Badges', component: Badges },
-  { path: '/lead/modals', name: 'Modals', component: Modals },
+  { path: '/lead/uploadlead', name: 'UploadLead', component: UploadLead },
   { path: '/widgets', name: 'Widgets', component: Widgets },
   { path: '/charts', name: 'Charts', component: Charts },
   { path: '/users', exact: true,  name: 'Users', component: Users },
