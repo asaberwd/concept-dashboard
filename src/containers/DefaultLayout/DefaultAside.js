@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, NavLink, Progress, TabContent, TabPane, ListGroup, ListGroupItem } from 'reactstrap';
+import { Nav, NavItem, NavLink, Progress, TabContent, TabPane, ListGroup, ListGroupItem, Badge } from 'reactstrap';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { AppSwitch } from '@coreui/react'
+import axios from 'axios'
+import moment, { now } from 'moment';
+
 
 const propTypes = {
   children: PropTypes.node,
@@ -29,10 +32,40 @@ class DefaultAside extends Component {
     }
   }
 
-  render() {
+  componentDidMount = () =>{
 
+    let id = '5d80decb8aadc50049f28edc'
+    axios.get(`http://localhost:3000/api/schdule/user/${id}`)
+    .then((res)=>{
+        if(res.error){
+            this.setState({
+                error : res.error
+            })
+            console.log('error===', res.error)
+        
+        }else if( res.noData){
+          this.setState({
+            noData : res.noData
+          })
+        }
+        else{
+            this.setState({
+                schedules : res.data.data
+            })
+            console.log('data===', res.data)
+        }
+        
+    })
+    .catch(err =>{
+        console.log('error loading resource')
+    })
+}
+
+  render() {
+console.log(this.state)
     // eslint-disable-next-line
     const { children, ...attributes } = this.props;
+    const { schedules } = this.state
 
     return (
       <React.Fragment>
@@ -65,87 +98,37 @@ class DefaultAside extends Component {
         <TabContent activeTab={this.state.activeTab}>
           <TabPane tabId="1">
             <ListGroup className="list-group-accent" tag={'div'}>
-              <ListGroupItem className="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-warning list-group-item-divider">
-                <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
-                </div>
-                <div>Meeting with <strong>Lucas</strong> </div>
-                <small className="text-muted mr-3">
-                  <i className="icon-calendar"></i>&nbsp; 1 - 3pm
-                </small>
-                <small className="text-muted">
-                  <i className="icon-location-pin"></i> Palo Alto, CA
-                </small>
-              </ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-info list-group-item-divider">
-                <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com"></img>
-                </div>
-                <div>Skype with <strong>Megan</strong></div>
-                <small className="text-muted mr-3">
-                  <i className="icon-calendar"></i>&nbsp; 4 - 5pm
-                </small>
-                <small className="text-muted">
-                  <i className="icon-social-skype"></i> On-line
-                </small>
-              </ListGroupItem>
-              <ListGroupItem className="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Tomorrow</ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-danger list-group-item-divider">
-                <div>New UI Project - <strong>deadline</strong></div>
-                <small className="text-muted mr-3"><i className="icon-calendar"></i>&nbsp; 10 - 11pm</small>
-                <small className="text-muted"><i className="icon-home"></i>&nbsp; creativeLabs HQ</small>
-                <div className="avatars-stack mt-2">
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/2.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/3.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/5.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                </div>
-              </ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-success list-group-item-divider">
-                <div><strong>#10 Startups.Garden</strong> Meetup</div>
-                <small className="text-muted mr-3"><i className="icon-calendar"></i>&nbsp; 1 - 3pm</small>
-                <small className="text-muted"><i className="icon-location-pin"></i>&nbsp; Palo Alto, CA</small>
-              </ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-primary list-group-item-divider">
-                <div><strong>Team meeting</strong></div>
-                <small className="text-muted mr-3"><i className="icon-calendar"></i>&nbsp; 4 - 6pm</small>
-                <small className="text-muted"><i className="icon-home"></i>&nbsp; creativeLabs HQ</small>
-                <div className="avatars-stack mt-2">
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/2.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/3.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/5.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                  <div className="avatar avatar-xs">
-                    <img src={'assets/img/avatars/8.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  </div>
-                </div>
-              </ListGroupItem>
+
+              <ListGroupItem className="list-group-item-accent-danger bg-danger text-center font-weight-bold text-uppercase small">Late</ListGroupItem>
+                { schedules? schedules.map((sca)=>{
+                  if(moment(sca.date).isBefore()) return (
+                    <ListGroupItem action tag="a" href={sca.lead?`/#/lead/${sca.lead}`:`#/order/${sca.order}`} className="list-group-item-accent-danger list-group-item-divider">
+                      <AppSwitch className={'float-right'} variant={'pill'} label color={'danger'} defaultChecked size={'sm'}/>
+                      <div>{ sca.note } </div>
+                      <small className="text-muted mr-3">
+                        <i className="icon-calendar"></i>&nbsp; {moment(sca.date).fromNow()}
+                      </small>
+                    </ListGroupItem>
+                  )
+                })
+                :<ListGroupItem action tag="a" className="list-group-item-accent-danger list-group-item-divider">
+                <div>Sorry you have No Schedules </div>
+              </ListGroupItem>}
+              <ListGroupItem className="list-group-item-accent-secondary bg-warning text-center font-weight-bold text-muted text-uppercase small">Up Coming</ListGroupItem>
+              { schedules? schedules.map((sca)=>{
+                  if(!moment(sca.date).isBefore()) return (
+                    <ListGroupItem action tag="a" href={sca.lead?`/#/lead/${sca.lead}`:`#/order/${sca.order}`} className="list-group-item-accent-warning list-group-item-divider">
+                      <AppSwitch className={'float-right'} variant={'pill'} label color={'danger'} defaultChecked size={'sm'}/>
+                      <div>{ sca.note } </div>
+                      <small className="text-muted mr-3">
+                        <i className="icon-calendar"></i>&nbsp; {moment(sca.date).fromNow()}
+                      </small>
+                    </ListGroupItem>
+                  )
+                })
+                :""}
+              
+              
             </ListGroup>
           </TabPane>
           <TabPane tabId="2" className="p-3">

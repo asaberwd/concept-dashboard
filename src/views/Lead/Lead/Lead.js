@@ -9,12 +9,14 @@ class Alerts extends Component {
     super(props);
 
     this.state = {
+      itemPerPage : 5,
+      currentPage : 1,
     };
 
   }
 
   componentDidMount= ()=>{
-    axios.get('http://localhost:3000/api/viewleads')
+    axios.get(`http://localhost:3000/api/viewleads?page=${this.state.currentPage}`)
     .then((res)=>{
         if(res.error){
             this.setState({
@@ -34,10 +36,17 @@ class Alerts extends Component {
     })
 }
 
+  onChange =(event)=>{
+    this.props.history.push(`/lead?page=${Number(event.target.name)}`)
+    this.setState({
+      currentPage: Number(event.target.id)
+    });
+  }
 
   render() {
     const { leads, error }=  this.state
     console.log('leads ===', this.state.leads)
+    console.log('page number is : ', this.state.currentPage)
 
     if(error){
             return(
@@ -75,6 +84,21 @@ class Alerts extends Component {
                       }) }
                 </tbody>
                 </Table>
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item" ><a class="page-link" id="1" onClick={this.onChange} >1</a></li>
+                    <li class="page-item" id="2" onClick={this.onChange}>
+                      <a class="page-link" href="#">2 <span class="sr-only"></span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
                 </div>
             )
         }

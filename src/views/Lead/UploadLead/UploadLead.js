@@ -5,11 +5,7 @@ import FormData from 'form-data'
 class addLead extends Component {
 
   state={
-    fullName:'',
-    country:'',
-    telephone:'',
-    lead:'',
-    cost:0,
+
   }
 
   handleChange = event => {
@@ -27,34 +23,54 @@ class addLead extends Component {
 
   onSubmit = event =>{
     event.preventDefault()
-    const { fullName, country, telephone, lead, cost } = this.state
+    const { exelFile } = this.state
 
     let form = new FormData()
+    form.append('exelFile', exelFile)
 
-    let newLead = { fullName, country, telephone, lead, cost }
-    if(!lead) delete newLead.lead
 
-    axios.post('http://localhost:3000/api/addlead', newLead)
+    axios({
+      method: 'POST',
+      processData: false,
+      contentType: 'multipart/form-data',
+      cache: false,
+      url: 'http://localhost:3000/api/uploadleads', 
+      data: form,
+    })
     .then(res => {
-      console.log('res ===',res.data.data.fullName)
+      console.log('res ===',res.data)
       this.setState({
-        res:res.data.data,
-        fullName:'',
-        telephone:'',
-        country:'',
+        res:res.data,
+        exelFile:''
       })
     })
-    .catch(err =>{
-      console.log('error ===', err)
+    .catch(error =>{
+      console.log('error ===', error)
+      if (error.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        console.log(error.response.data);
+        console.log(error.response.status);
+        console.log(error.response.headers);
+      } else if (error.request) {
+        // The request was made but no response was received
+        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+        // http.ClientRequest in node.js
+        console.log(error.request);
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.log('Error', error.message);
+      }
+      console.log(error.config);
       this.setState({
-        error: err
+        error
       })
     })
   }
 
 
   render(){
-    const { res, error } = this.state
+    const { res, error, exelFile } = this.state
     console.log('state:', this.state)
     return(
       <div>
@@ -63,39 +79,25 @@ class addLead extends Component {
     <legend>Add leads By Excel</legend>
     <div className="form-group row">
     </div>
-    <div className="form-group">
-      <label>Full Name</label>
-      <input type="text" name="fullName" className="form-control" required id="exampleInputEmail1" onChange={this.handleChange} placeholder="Enter lead full name"/>
-    </div>
 
     <div className="form-group">
-      <label > phone number </label>
-      <input type="text" name="telephone" className="form-control" required id="exampleInputEmail1" onChange={this.handleChange} placeholder="phone number"/>
-    </div>
-
-    <div className="form-group">
-      <label > country </label>
-      <input type="text" name="country" className="form-control" required id="exampleInputEmail1" onChange={this.handleChange} placeholder="Enter country"/>
-    </div>
-
-    <div className="form-group">
-      <label > product image </label>
-      <input type="file" name="selectedFile" multiple className="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" onChange={this.handleUpload}/>
-      <small id="fileHelp" className="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+      <label > add excel file </label>
+      <input type="file" name="exelFile" required className="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" onChange={this.handleUpload}/>
+      <small id="fileHelp" className="form-text text-muted">You must add .xlsx files only.empty files or fields may result in errors and lead will not be added.</small>
     </div>
 
     { res?(<div class="alert alert-dismissible alert-success">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Great job!</strong> <a href="#" class="alert-link">file uploaded succesfully</a> Lead name : {res.fullName}.
+      <strong>Great job!</strong> <a href="#" class="alert-link">file uploaded succesfully</a> {res.leads} leads added .
       </div>):''}
 
     {error?(<div class="alert alert-dismissible alert-danger">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>Oh sorry!</strong> <a href="#" class="alert-link">error uploading file :</a> {error.response.data.error.errmsg}.
+    <strong>Oh sorry!</strong> <a href="#" class="alert-link">error uploading file </a> .
     </div>):''}
 
 
-    <button type="submit" className="btn btn-primary" > Submit </button>
+    <button type="submit" className="btn btn-primary" disabled={ exelFile?false:true} > Submit </button>
   </fieldset>
 </form>
       </div>
